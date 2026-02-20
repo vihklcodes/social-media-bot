@@ -18,66 +18,23 @@ Each merchant gets a dedicated folder under `merchants/` where all 3 agents writ
 
 This is an AI-generated social media campaign experiment for 13 confirmed DoorDash restaurant merchants across 3 follower tiers. Each merchant receives 3 occasion-based campaigns. The goal is to prove AI campaigns can drive measurable engagement uplift and correlate to order volume growth.
 
-### Confirmed Merchant Roster (Source of Truth)
+### Confirmed Merchant Roster
 
-**The final merchant roster lives in `AI comeback - Social Media .csv`.** Do NOT hardcode merchant data -- always read from the CSV.
-
-**CSV Column Map:**
-
-| Column | Header | What It Contains |
-|--------|--------|------------------|
-| A | Emails | Merchant contact email |
-| B | Business ID | DoorDash Business ID |
-| C | Cuisine | Cuisine tags (comma-separated) |
-| D | Business Name | Merchant name (use as folder name under `merchants/`) |
-| E | Instagram Shared? | Whether Mx has shared their Instagram access |
-| F | First set of posts | Mx-requested occasion ideas / first post topics |
-| G | Approval? | Approval status for first set of posts |
-| H | Notes | Mx-specific notes, promo details, special requests |
-| **I** | **Website** | **Merchant website URL -- Agent 1 scrapes this directly (no web searching)** |
-| **J** | **Social Media Link** | **Merchant Instagram URL -- Agent 1 scrapes this directly (no web searching)** |
-| K | # of Followers | Instagram follower count |
-| L | MP Weekly Avg | Marketplace (3P) weekly order average |
-| M | SF Weekly Avg | Storefront (1P) weekly order average |
-
-**How agents use the CSV:**
-- **Agent 1** reads column I (Website) and column J (Social Media Link / Instagram) directly from the CSV to know exactly which URLs to scrape with Playwright. No web searching or guessing URLs -- the CSV is the source of truth.
-- **Agent 2** can reference columns F (First set of posts), H (Notes), and K-M (follower count + order volume) for occasion strategy context.
-- All agents can reference column D (Business Name) for the merchant folder name.
-
-### Tier Breakdown
-
-| Tier | Merchants | Count |
-|------|-----------|-------|
-| **<100 followers** | Sumo Ramen, Jalisco Restaurant, Thai Cortez | 3 |
-| **100-5K followers** | Falafel Corner, Los Ocampos, Tee Jayes, Halal Express, Burger Bun, Tio Nacho | 6 |
-| **5K+ followers** | Kaisen Don, La Cocina, 323 Hibachi Grill, Chelo | 4 |
-
-### Key Occasion Hooks by Merchant
-
-- **Los Ocampos** -- Taco Tuesday, Cinco de Mayo, Margarita Monday, family meal deals, holiday catering
-- **La Cocina** -- Taco Tuesday, Cinco de Mayo, Margarita Monday, Valentine's dinner, lunch specials, St. Patrick's Day, Mofongo highlight
-- **Burger Bun** -- March Madness, Super Bowl, National Burger Day, Father's Day, July 4th, game day, happy hour
-- **Chelo** -- Mediterranean diet trends, Meatless Monday, catering events, Persian New Year (Nowruz), healthy eating
-- **Sumo Ramen** -- Cold weather comfort, late-night cravings, Lunar New Year, rainy day specials
-- **Jalisco Restaurant** -- Taco Tuesday, Cinco de Mayo, seafood Friday, Lent specials, family platters
-- **Falafel Corner** -- Meatless Monday, Mediterranean diet, lunch specials, late-night healthy eats
-- **Tee Jayes** -- Sunday brunch, comfort food Friday, holiday family meals, breakfast specials, rainy day classics
-- **Halal Express** -- Ramadan/Iftar specials, weekend family platters, lunch deals
-- **Tio Nacho** -- Breakfast specials, smoothie season, Cinco de Mayo, weekend brunch, lunch combos
-- **323 Hibachi Grill** -- Hibachi date night, Super Bowl, game day, influencer collabs, weekend specials
-- **Kaisen Don** -- Lunar New Year, Valentine's date night, New Year health kicks, summer fresh eating
-- **Thai Cortez** -- Thai New Year (Songkran), Pad Thai Tuesday, spicy food challenges, happy hour curry
-
-### Success Metrics
-
-- Engagement rate (likes, comments, shares, saves)
-- Saves & shares (content quality indicator)
-- Follower growth (net new during campaign)
-- Click-through / bookings (conversion tracking)
-- Comment quality (genuine vs. bots)
-- Brand consistency score (does content match Mx identity?)
-- Order volume correlation (MP/SF weekly vs. baseline)
+| # | Merchant | Cuisine | Instagram | Followers | Tier | MP Wkly | SF Wkly | Notes |
+|---|----------|---------|-----------|-----------|------|---------|---------|-------|
+| 1 | Los Ocampos | Mexican | @losocamporestaurants | 2,840 | 100-5K | 960.8 | 190.9 | Influencer videos, photos. Multi-location. |
+| 2 | La Cocina | Mexican | @lacocina_nj | 8,598 | 5K+ | 231.0 | 9.1 | Posts daily, boosted content, hasn't cracked the code. |
+| 3 | Burger Bun | Burgers/American | @burgerbunla | 2,422 | 100-5K | 283.9 | 4.1 | High quality videos, low engagement. |
+| 4 | Chelo | Mediterranean/Middle Eastern | @tasteofchelo | 7,391 | 5K+ | 24.2 | 0.3 | Good to work with, wants to share, gets catering. |
+| 5 | Sumo Ramen Market City | Japanese/Ramen | @sumoramenmarketcity | 88 | <100 | 157.0 | 1.0 | Only 2 posts, no engagement. Blank canvas. |
+| 6 | Jalisco Restaurant | Mexican/Seafood | @jaliscoscatering | 66 | <100 | 100.7 | 0.8 | Photos and vids, low engagement. |
+| 7 | Falafel Corner | Mediterranean | @falafelcornerdowntown | 445 | 100-5K | 1,806.0 | 129.1 | Highest MP weekly in dataset. |
+| 8 | Tee Jayes Country Place | Comfort Food/Deli | @teejayescountryplace | 1,035 | 100-5K | 951.2 | 70.9 | Updates, promos, some menu items. |
+| 9 | Halal Express | Halal/Fast Food | @halalexpressnj | 1,281 | 100-5K | 337.0 | 13.3 | Great food-focused videos, zero engagement. |
+| 10 | Tio Nacho | Mexican/Breakfast | @tionacho_nyc | 207 | 100-5K | 105.5 | 5.6 | Engaged merchant, interested in pilot. |
+| 11 | 323 Hibachi Grill | Japanese/Hibachi | @323hibachigrill | 15,800 | 5K+ | 286.5 | 13.6 | Already Med/High engagement. Influencer posts. |
+| 12 | Kaisen Don | Japanese/Poke | @kaisendon1939 | 15,700 | 5K+ | 272.0 | 153.7 | Influencer marketing. Huge dormant audience. |
+| 13 | Thai Cortez | Thai | @thai.cortez | 64 | <100 | 41.2 | 40.7 | Friendly Mx, needs help, posts food vids occasionally. |
 
 ---
 
@@ -88,7 +45,6 @@ Each agent has detailed instructions in `agents/`. **Read the relevant instructi
 ### Agent 1: Visual Brand Intelligence & Feed Deconstruction
 **Full instructions:** `agents/agent1_instructions.md`
 **Mission:** Reverse-engineer the merchant's Instagram using Playwright (screenshots, pixel extraction, DOM snapshots) so precisely that an AI image generator could reproduce their feed seamlessly. Extracts brand identity, environment colors (Playwright-verified hex codes), typography, caption style, and photography patterns from real posts.
-**Data source:** Read the merchant's **website URL from column I** and **Instagram URL from column J** of `AI comeback - Social Media .csv`. Do NOT web search for these URLs -- the CSV is the single source of truth. Scrape the website at the column I URL with Playwright. Navigate to the Instagram profile at the column J URL with Playwright.
 **Output:** `merchants/{Merchant Name}/agent1_brand.md`
 
 ### Agent 2: Occasion Strategist
@@ -107,7 +63,7 @@ Each agent has detailed instructions in `agents/`. **Read the relevant instructi
 **Reads:** `agent3_content.md` → **Output:** `merchants/{Merchant Name}/final_images/occasion_{N}_{slug}.png`
 
 ### Workflow Summary
-1. **Agent 1** → Reads website (col I) + Instagram (col J) URLs from `AI comeback - Social Media .csv` → Playwright screenshot + pixel-extract Instagram, scrape website → writes `agent1_brand.md`
+1. **Agent 1** → Playwright screenshot + pixel-extract Instagram → writes `agent1_brand.md`
 2. **Agent 2** → reads `agent1_brand.md` → writes `agent2_occasions.md`
 3. **Agent 3** → reads `agent1_brand.md` + `agent2_occasions.md` → writes `agent3_content.md`
 4. **Agent 4** → reads `agent3_content.md` → opens Gemini via Playwright → generates images → saves to `final_images/`
@@ -191,8 +147,7 @@ merchants/
     screenshots/          ← Playwright screenshots (Agent 1 feed captures + Agent 4 debug)
     final_images/         ← Agent 4 output: generated Nano Banana Pro poster images
 cloud social media.md     ← Merchant selection rationale
-AI comeback - Social Media .csv  ← FINAL merchant roster (source of truth for all agents)
-AI comeback.xlsx          ← Original source data for merchant evaluation
+AI comeback.xlsx          ← Source data for merchant evaluation
 email_selected_merchants.md
 email_not_selected_merchants.md
 ```

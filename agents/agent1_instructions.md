@@ -53,12 +53,13 @@ This is the critical visual intelligence layer. **ALL analysis must be based on 
    mcp__playwright__browser_navigate → [URL from column J of CSV]
    ```
    Most merchant profiles are public -- Playwright will render the full JavaScript page without login.
+   **Do NOT take or save an initial screenshot after navigation.** A DOM snapshot is sufficient for the first check.
 
 2. **Take a full-page screenshot** to capture the entire visible grid:
    ```
-   mcp__playwright__browser_take_screenshot → fullPage: true, filename: "{merchant}_instagram_fullpage.png"
+   mcp__playwright__browser_take_screenshot → fullPage: true
    ```
-   This captures the profile header, highlights, and 4-8 rows of the post grid.
+   This captures the profile header, highlights, and 4-8 rows of the post grid. View the screenshot in Playwright for analysis -- **do NOT save it to the merchant's screenshots/ folder.**
 
 3. **Capture the DOM snapshot** to extract all captions, alt text, post URLs, and follower counts:
    ```
@@ -123,7 +124,7 @@ This is the critical visual intelligence layer. **ALL analysis must be based on 
      await page.waitForTimeout(2000);
    }
    ```
-   Then take another screenshot. Instagram shows ~24 posts before requiring login. Use all of them.
+   Then take another screenshot (view in Playwright, do not save to files). Instagram shows ~24 posts before requiring login. Use all of them.
 
 6. **Visually analyze every screenshot** to identify:
    - Wall colors and where they appear (left wall vs. right wall vs. accent wall)

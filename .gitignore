@@ -3,3 +3,6 @@
 .venv/
 .playwright-mcp/
 .claude/
+
+# Large photo libraries (source images, not generated outputs)
+**/Total New Images Merged/

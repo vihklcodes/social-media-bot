@@ -18,10 +18,10 @@
 
 ---
 
-### 2. First Lenten Friday -- Meatless Falafel Spotlight
+### 2. Chicken Platter Hero -- The One Everyone Orders
 **Date:** Friday, February 20, 2026
-**Why it's relevant:** The first Friday of Lent is the most observed meatless Friday of the season -- even lapsed observers tend to skip meat this week. Falafel is inherently meatless (garbanzo beans, onion, garlic, vegetables, spices -- gluten-free too), making Falafel Corner one of the only fast-casual chains where the signature item IS the meatless option. No menu substitution needed. No sad salad. The falafel wrap is $10-range, filling, and already the bestseller.
-**Suggested campaign angle:** "Meatless Friday? Our bestseller has been meatless since day one." Position falafel as the go-to Lenten Friday meal -- not a compromise, but an upgrade. Hero the Falafel Wrap with a close-up of the crispy falafel cross-section (golden brown exterior, green herb-flecked interior). This can become a recurring Friday post through Lent (Feb 20, 27, Mar 6, 13, 20). CTA: Order your Lenten Friday falafel -- link in bio.
+**Why it's relevant:** The Chicken Platter is Falafel Corner's #1 ordered item on DoorDash across 6,000+ reviews. It's the anchor of the menu -- grilled chicken with char marks, golden seasoned rice, hummus, tzatziki, salata, and warm pita. At under $17, it's a two-meal value play. The brand has never given the Chicken Platter its own dedicated spotlight post -- it always appears as part of a "Combo Platter" alongside gyro. A standalone hero post lets the chicken platter shine and gives the social proof angle a full canvas.
+**Suggested campaign angle:** "6,000+ DoorDash reviews and this is still #1. The Chicken Platter." Pure product hero energy -- social proof hook, portion-size flex, value callout. The food does the selling. This is a Friday post timed to capture weekend dinner ordering. CTA: Order the Chicken Platter on DoorDash -- link in bio.
 
 ---
 
@@ -57,10 +57,10 @@
 
 ## Week 3: March 4--10, 2026
 
-### 7. National Snack Day -- Shawarma Fries & Sides Spotlight
+### 7. Rice Bowl Lineup -- Menu Discovery
 **Date:** Wednesday, March 4, 2026
-**Why it's relevant:** Shawarma Fries are one of Falafel Corner's most Instagrammable items -- crispy fries loaded with shawarma meat. Alongside hummus + pita chips, falafel bites, and other sides, there's a strong "snack menu" that most followers probably don't know about. National Snack Day is the vehicle to push awareness of these add-on items that drive higher average order values on DoorDash.
-**Suggested campaign angle:** "3pm snack ranking: 1. Shawarma Fries. 2. Hummus + Pita Chips. 3. Everything else." Use a ranking/list format to spotlight the snack items. This is engagement bait -- ask followers to rank their favorites or argue the order. Shawarma Fries should be the hero image. CTA: Add Shawarma Fries to your next DoorDash order.
+**Why it's relevant:** Falafel Corner offers Rice Bowls (Chicken, Gyro, Falafel) that most followers don't know about. The brand's Instagram has never featured bowls -- every post is either a wrap or a platter. Rice bowls are a massive trend in fast-casual dining, and FC's bowls are a lighter, cleaner option for lunch: pick your protein, golden seasoned rice, tzatziki. Under $14. This is a menu discovery post designed to expand what people associate with Falafel Corner beyond wraps and platters. Bowls appeal to the health-conscious, meal-prep, and lunch-ordering segments that are underserved by the current content.
+**Suggested campaign angle:** "Not a wrap person? We do bowls." Introduce the three-bowl lineup (Chicken, Gyro, Falafel Rice Bowl) with the Chicken Bowl as the hero. Position bowls as the easy, clean, midweek lunch order. This is a menu discovery play -- surprise followers with a product category they didn't know existed. CTA: Order a Rice Bowl on DoorDash -- link in bio.
 
 ---
 
@@ -138,12 +138,12 @@
 | Week | Date | Occasion | Primary Menu Hook | Campaign Type |
 |------|------|----------|-------------------|---------------|
 | 1 | Feb 18 | Ramadan Begins + Ash Wednesday | Halal iftar platters, Falafel Wrap (meatless) | Community / Cultural / Dual Religious |
-| 1 | Feb 20 | First Lenten Friday | Falafel Wrap (meatless bestseller) | Recurring / Meatless / Religious |
+| 1 | Feb 20 | Chicken Platter Hero | Chicken Platter (#1 DoorDash order) | Product Spotlight / Value |
 | 1 | Feb 24 | National Tortilla Chip Day | Hummus + Pita Chips (catering menu) | Counter-Programming / Menu Discovery |
 | 2 | Feb 26 | National Chili Day | Combo Platter (comfort food) | Counter-Programming / Value |
 | 2 | Feb 28-Mar 1 | Sacramento Kings Game Night | Combo Platters, Shawarma Fries, Gyro Wraps | Sports / Game Day / Local |
 | 2 | Mar 3 | National Cold Cuts Day | Gyro Wrap, Gyro Rice Bowl | Credibility / Quality |
-| 3 | Mar 4 | National Snack Day | Shawarma Fries, Hummus + Pita Chips | Snack / Add-Ons / Engagement |
+| 3 | Mar 4 | Rice Bowl Lineup | Chicken/Gyro/Falafel Rice Bowls | Menu Discovery / Product Spotlight |
 | 3 | Mar 8 | International Women's Day | People/community (no specific food hero) | Community / Brand Building |
 | 3 | Mar 9 | National Meatball Day | Falafel Wrap (OG plant-based meatball) | Playful / Meatless Monday Combo |
 | 4 | Mar 14 | National Potato Chip Day | Shawarma Fries | Counter-Programming |
@@ -163,10 +163,10 @@
 - **Game Day Energy (3 posts):** Kings weekend, Selection Sunday, March Madness First Round -- builds "Falafel Corner = game day food" in Sacramento
 - **March Madness Arc (2 posts):** Selection Sunday teaser --> First Round payoff. Mirrors the pre-occasion / day-of framework.
 - **Ramadan Thread:** The Ramadan opening post can be referenced throughout the month in Stories or as a recurring "iftar pick" series, keeping halal visibility high for the full 30 days until Eid al-Fitr on March 20
-- **Lenten Fridays (5 Fridays):** Feb 20, 27, Mar 6, 13, 20 -- falafel as the meatless Friday option. Can overlap with Falafel Friday for a double hook
+- **Chicken Platter Hero (Feb 20):** Standalone product spotlight for the #1 DoorDash order -- social proof + value play
 - **Meatless Monday + National Meatball Day (March 9):** Calendar overlap that creates a perfect double occasion for falafel's plant-based credentials
 - **Community / Cultural (3 posts):** Ramadan/Ash Wednesday, International Women's Day, Nowruz/Eid -- humanize a brand that currently has zero personality or community connection
-- **Menu Discovery (2 posts):** Tortilla Chip Day (hummus + pita chips from catering menu) and Cold Cuts Day (gyro/shawarma quality) expand what followers associate with Falafel Corner beyond just falafel wraps
+- **Menu Discovery (3 posts):** Tortilla Chip Day (hummus + pita chips from catering menu), Cold Cuts Day (gyro/shawarma quality), and Rice Bowl Lineup (bowls as a distinct category) expand what followers associate with Falafel Corner beyond just falafel wraps
 - **Local Sacramento Hooks:** Kings game nights and references to specific neighborhoods/locations differentiate from the current generic, could-be-any-city content
 
 **Biggest Strategic Opportunity:**

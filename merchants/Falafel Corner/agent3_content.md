@@ -93,78 +93,79 @@ Ramadan Mubarak! Lent begins today too. Whether you're fasting or going meatless
 
 ---
 
-## Occasion 2: First Lenten Friday -- Meatless Falafel Spotlight
+## Occasion 2: Chicken Platter Hero -- The One Everyone Orders
 **Date:** Friday, February 20, 2026
 
 ### A. Nano Banana Pro Image Generation Prompt
 
 > **Format:** 1030 x 1350 px Instagram poster, portrait orientation.
 >
-> **Layout:** Z-Pattern -- eye enters at the Falafel Corner logo at top-left, sweeps right across the headline "MEATLESS SINCE DAY ONE" in the top 15-25% zone, drops diagonally through the hero falafel wrap cross-section in the center 40-70%, exits at the CTA button in the bottom 10-15%. This is the brand's default flyer layout pattern -- logo top-left, headline top, food hero center, CTA bottom -- which maintains visual consistency with the existing feed while delivering a stronger message. The top headline position works because the claim ("meatless since day one") sets up the reveal of the falafel cross-section below.
+> **Layout:** Golden Ratio Split (standard: 62% food zone on top, 38% text zone below) -- the top 62% is filled with a dramatic, generous Chicken Platter that overflows the plate, and the bottom 38% holds the bold social-proof headline. This layout puts the food first because the Chicken Platter's generous portions are the strongest scroll-stopper. The viewer sees the loaded plate, stops, then reads the value hook below. The food does the selling; the text names the feeling.
 >
-> **Food photography:** 45-degree angle hero shot of a Falafel Wrap cut in half to reveal the cross-section. The cross-section shows 3 golden-brown falafel balls (crispy exterior, vibrant GREEN herb-flecked interior visible on the cut surface), surrounded by shredded lettuce, diced tomatoes, sliced red onion, drizzled white tzatziki and tahini sauce, all wrapped tightly in a golden-brown grilled pita bread. The wrap is centered in the frame, fully contained, with the cut face angled toward the camera to showcase the green falafel interior. Below the wrap, a white ceramic plate catches any fallen ingredients.
+> **Food photography:** Overhead-leaning shot (about 30-degree tilt) of a Chicken Platter on a large white ceramic plate. The platter features: generous grilled chicken pieces with visible char marks and seasoning -- golden-brown, juicy, arranged prominently across one half of the plate. A bed of golden seasoned rice fills the center. A generous scoop of smooth hummus with an olive oil pool and paprika sprinkle. A mound of fresh salata (diced tomato, cucumber, parsley). A dollop of white tzatziki. Two triangular pita bread slices leaning against the plate rim. The plate fills the entire top 62% of the canvas, centered, fully contained within frame.
 >
-> **Environment:** Warm amber/burnt orange gradient (#b05e03 to #a33004) fills the background behind the wrap, matching the brand's primary flyer background. White ceramic plate on gradient background. Warm, bright, high-saturation studio lighting.
+> **Environment:** Warm amber/burnt orange gradient (#b05e03 to #a33004) fills the background behind the platter, matching the brand's primary flyer backdrop. White ceramic plate on gradient background. Warm, bright, high-saturation studio lighting. The gradient transitions slightly darker at the bottom where the text zone sits.
 >
-> **Color palette:** Warm amber/burnt orange gradient (#b05e03 to #a33004) as dominant background. Falafel exterior is golden-brown (#d2a586 to #bb8249). Falafel INTERIOR is vibrant green (fresh herb color -- parsley, cilantro). Pita is warm golden-brown. Lettuce is vivid green. Tomato is bright red. Tzatziki/tahini are white/off-white. Brand red (#AD2429) for any accent text. White (#FFFFFF) for headline and CTA text.
+> **Color palette:** Warm amber/burnt orange gradient (#b05e03 to #a33004) as dominant background. Grilled chicken is golden-brown with dark char marks. Rice is golden and fluffy. Hummus is pale beige with golden olive oil. Salata is vivid green and red. Tzatziki is white. Pita is warm golden-brown. Food center tones (#d2a586 to #bb8249) dominate. White (#FFFFFF) for all text.
 >
-> **Food styling:** The falafel cross-section is THE hero moment -- the green interior must be vibrant and surprising. The wrap should look overstuffed and generous. Sauce drizzles are visible and appetizing. The pita has visible grill marks. This shot communicates "this isn't a sad meatless option -- this is the bestseller."
+> **Food styling:** The grilled chicken is THE hero -- it must look freshly grilled, juicy, with visible char marks and seasoning. The pieces should be thick and generous, not thin strips. Portions overflow the plate slightly. Rice is fluffy and golden. Hummus has the classic olive oil/paprika garnish. This is a "that plate is massive" reaction shot. The chicken should make you hungry.
 >
 > **Text design:**
-> - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner on the warm amber gradient background. White logo.
-> - **Headline:** "MEATLESS SINCE DAY ONE" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the top 15-25% zone, centered horizontally. The warm amber gradient (#b05e03) provides a solid mid-tone backdrop where white condensed Oswald text reads with strong contrast. No overlay needed -- warm amber (#b05e03) provides natural contrast. Spans ~38% of canvas width (~390px), font height ~65px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Positioned at the bottom 10-15% of canvas, centered. Button spans ~25% of canvas width (~260px), font height ~30px.
-> - **Readability:** Natural negative space -- the warm amber/burnt orange gradient (#b05e03 to #a33004) fills the entire background, providing consistent warm mid-tone contrast for white text at top and bottom. No overlay needed -- #b05e03 provides natural contrast for white Oswald at >=4.5:1 ratio.
+> - **Logo:** Falafel Corner flame/teardrop logo + "FALAFEL CORNER / MEDITERRANEAN GRILL" positioned at top-left corner of the canvas on the warm amber gradient. White logo.
+> - **Headline:** "THE ONE EVERYONE ORDERS" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the bottom 38% text zone, centered horizontally, at approximately 70-75% canvas height. The warm amber gradient in the lower zone (#a33004, slightly darker) provides a solid mid-to-dark tone backdrop for white text. Spans ~40% of canvas width (~410px), font height ~60px.
+> - **Product callout:** "CHICKEN PLATTER" -- Bebas Neue (ultra-condensed, tall, all-caps display font, cinematic poster feel, uniform stroke weight), ALL CAPS, white (#FFFFFF). Positioned directly below headline. Spans ~28% of canvas width (~290px), font height ~38px.
+> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Bottom 10-12% of canvas, centered. Button spans ~25% of canvas width (~260px), font height ~30px.
+> - **Readability:** Natural negative space -- the bottom 38% of the canvas is warm amber gradient with no food, transitioning slightly darker. White text reads cleanly against the gradient. No overlay needed.
 >
-> **Decorative elements:** Faint line-drawn falafel ball outlines and herb leaf sketches at ~25% opacity scattered on the gradient background around the wrap hero. A few fresh parsley sprigs placed decoratively beside the plate.
+> **Decorative elements:** Line-drawn food sketches (chicken leg outline, rice bowl shape) at ~20% opacity on the gradient background in the text zone. Fresh herb sprigs and a lemon wedge near the plate on the gradient background.
 >
-> **Eye flow:** FIRST: "MEATLESS SINCE DAY ONE" headline (the claim that reframes falafel for Lenten observers) --> SECOND: Falafel Wrap cross-section with GREEN interior visible (the proof -- vibrant, fresh, this is not a compromise) --> THIRD: Terracotta orange CTA button (the action -- order it now)
+> **Eye flow:** FIRST: Loaded Chicken Platter overflowing the frame (the generous portions -- grilled chicken with char marks, golden rice, hummus, pita) --> SECOND: "THE ONE EVERYONE ORDERS" headline (social proof hook -- validates what the viewer is already thinking) --> THIRD: "CHICKEN PLATTER" product name + CTA button (what to order + action)
 >
-> **What NOT to include:** No borders, no frames, no stickers, no clip art, no full-width gradient overlays, no cross or religious symbols. Keep it food-forward.
+> **What NOT to include:** No borders, no frames, no stickers, no clip art, no full-width gradient overlays. No gyro meat -- this is a chicken-only spotlight.
 
 ### B. Instagram Caption
 
-**Variation 1 (Primary -- reframing hook):**
+**Variation 1 (Primary -- social proof + value):**
 
-🧆🌿 Your bestselling meatless option? Ours too.
+🍗🔥 6,000+ DoorDash reviews and this is still #1.
 
-Falafel Wrap: chickpeas, fresh herbs, lettuce, tomato, onion, tzatziki, tahini. All wrapped in warm pita. No meat, no compromise, no sad salad.
+The Chicken Platter. Grilled chicken with those char marks. Golden rice. Hummus. Tzatziki. Salata. Warm pita. All halal-certified.
 
-It's the first Lenten Friday. We've been ready.
+One plate. Enough food for two meals. Under $17.
 
-Order on DoorDash -- link in bio! ✨🔥
+Order on DoorDash -- link in bio! 👌✨
 
-**Variation 2 (Challenge hook):**
+**Variation 2 (Portion size flex):**
 
-🧆🌿 Name a meatless Friday meal that hits harder. We'll wait.
+🍗🔥 Whoever decided this is a single serving has never seen a Falafel Corner Chicken Platter.
 
-Falafel Wrap -- crispy, herb-packed, gluten-free falafel with tzatziki, tahini, fresh veggies, and warm pita. Under $11 at any Falafel Corner.
+Grilled chicken. Rice. Hummus. Tzatziki. Salata. Pita. It's giving "I'm set for lunch AND dinner."
 
-First Friday of Lent. We were built for this.
+Halal-certified. 19+ locations across Sacramento.
 
-Order on DoorDash -- link in bio! ✨🔥
+Order on DoorDash -- link in bio! 👌✨
 
-**Variation 3 (Direct/short):**
+**Variation 3 (Simple/direct):**
 
-🧆🌿 First Lenten Friday? Our falafel has been meatless since forever.
+🍗🔥 Friday. Chicken Platter. That's it. That's the plan.
 
-Crispy. Gluten-free. Stuffed in a wrap with tzatziki and tahini. The easiest meatless Friday you'll ever have.
+Grilled to order. Halal-certified. Stacked with rice, hummus, tzatziki, salata, and warm pita. Every single time.
 
-Order on DoorDash -- link in bio! ✨🔥
+Order on DoorDash -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#LentenFriday #MeatlessFriday #Lent2026 #FalafelWrap #FalafelCorner #MediterraneanFood #PlantBased #GlutenFree #VegetarianFood #SacramentoEats #SacFood #Sacramento #HalalFood #FreshIngredients #MeatlessMonday #HealthyEating #DoorDashOrder #FoodDelivery #RosevilleCA #DavisCA
+#ChickenPlatter #GrilledChicken #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #BigPortions #MealPrep #RiceBowl #Hummus #HealthyEating #FridayFood #DoorDashOrder #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA
 
 ### D. Optional Story Caption Version
 
-First Lenten Friday! Our Falafel Wrap has been meatless since day one. What's your go-to meatless order?
+The Chicken Platter is our #1 order on DoorDash. Have you tried it yet? Rate this plate 1-10.
 
-[Poll sticker: "Falafel Wrap" vs "Gyro Rice Bowl"]
+[Slider sticker with fire emoji: "Rate this platter"]
 
 ### E. Optional Reel Hook Text
 
-"Meatless Friday? Our bestseller has always been meatless."
+"6,000+ reviews and this is still the #1 order. The Chicken Platter."
 
 ---
 
@@ -451,74 +452,83 @@ National Cold Cuts Day. Our gyro is carved off the spit, not out of a package. B
 
 ---
 
-## Occasion 7: National Snack Day -- Shawarma Fries & Sides
+## Occasion 7: Rice Bowl Lineup -- Menu Discovery
 **Date:** Wednesday, March 4, 2026
 
 ### A. Nano Banana Pro Image Generation Prompt
 
 > **Format:** 1030 x 1350 px Instagram poster, portrait orientation.
 >
-> **Layout:** Z-Pattern -- eye enters at the Falafel Corner logo at top-left, sweeps right across the headline "SNACK RANKING" in the top 15-25% zone, drops diagonally through the loaded Shawarma Fries hero in the center 30-70%, exits at the CTA at the bottom. Top headline placement works because "SNACK RANKING" creates an expectation that the viewer must scroll down through the food to see what's being ranked. The Z-pattern guides the eye through each snack item in the spread.
+> **Layout:** Asymmetric Hero -- the Chicken Rice Bowl is positioned on the right side of the canvas (~55% of the frame width), centered vertically, as the hero product. The left side (~45%) holds the headline and text stacked vertically. This asymmetric layout creates a "product reveal" effect -- the bowl is being presented like a new menu discovery. The text side says "we do bowls" and the food side proves it. This is a menu discovery post, so the layout should feel fresh and different from the usual platter-focused Z-pattern. The asymmetry communicates "something new to show you."
 >
-> **Food photography:** 45-degree angle hero shot of Shawarma Fries as the dominant item -- a generous pile of golden crispy fries topped with carved chicken shawarma pieces, drizzled with white tahini sauce and possibly a garlic sauce, with pickled turnip/vegetables visible. The Shawarma Fries are in a white ceramic bowl, overflowing. Behind/beside them: a smaller bowl of hummus with golden fried pita chips arranged around it, and a small plate with 3-4 golden falafel balls. The Shawarma Fries dominate center frame. All items centered, fully contained.
+> **Food photography:** 45-degree angle hero shot of a Chicken Rice Bowl in a dark/black ceramic bowl. The bowl features: grilled chicken pieces with visible char marks and seasoning arranged over a bed of golden seasoned rice, topped with a generous drizzle of white tzatziki sauce, diced red onion, and a cilantro garnish. The bowl is generous and overflowing slightly. Below or beside the main hero bowl, two smaller supporting bowls are partially visible at the bottom-right edges -- a Gyro Bowl (gyro meat over rice with tzatziki) and a Falafel Bowl (falafel balls over rice with sauce) -- suggesting the full lineup without cluttering the composition. The Chicken Bowl is the clear hero at ~100% scale; the supporting bowls are at ~40% scale, positioned at the bottom-right corner, overlapping slightly.
 >
-> **Environment:** Warm amber/burnt orange gradient (#b05e03 to #a33004) as background. White ceramic bowls and plates on gradient. Warm, bright, high-saturation studio lighting.
+> **Environment:** Warm amber/burnt orange gradient (#b05e03 to #a33004) fills the background. Dark ceramic bowls on gradient. Warm, bright, high-saturation studio lighting.
 >
-> **Color palette:** Warm amber/burnt orange gradient (#b05e03 to #a33004) as background. Shawarma Fries are golden (#d2a586) with brown chicken pieces and white sauce drizzle. Hummus is pale beige with golden olive oil. Pita chips are golden-brown. Falafel balls are golden-brown. White (#FFFFFF) for text. The consistent golden tones across all three snack items unify the image.
+> **Color palette:** Warm amber/burnt orange gradient (#b05e03 to #a33004) as background. Chicken is golden-brown with dark char marks. Rice is golden. Tzatziki is white. Red onion adds a pop of purple. Cilantro is vivid green. The dark bowl contrasts against the warm gradient, creating a modern feel. Gyro meat is pink/brown. Falafel is golden-brown. White (#FFFFFF) for text. Brand red (#AD2429) for accent elements.
 >
-> **Food styling:** Shawarma Fries are the star -- loaded, saucy, piled impossibly high. The chicken pieces are visibly seasoned and carved. Sauce drizzles create appetizing patterns. The hummus and falafel are supporting players that show the breadth of the snack menu. Everything looks fresh and just-served.
+> **Food styling:** The Chicken Bowl should look hearty and satisfying but cleaner than a platter -- no pita, no hummus on the side, just protein + rice + sauce in one vessel. This is the "easy, clean, bowl meal" energy. The sauce drizzle should look generous and appetizing. The bowl should look full but composed -- a different vibe from the abundance-focused platter posts. The supporting mini-bowls hint at variety without overwhelming.
 >
 > **Text design:**
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on gradient.
-> - **Headline:** "SNACK RANKING" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Top 15-25% zone, centered. Warm amber gradient (#b05e03) provides natural contrast. Spans ~30% of canvas width (~310px), font height ~65px.
-> - **Ranking text:** "1. SHAWARMA FRIES  2. HUMMUS + PITA  3. EVERYTHING ELSE" -- Bebas Neue (ultra-condensed, tall, all-caps display font), white (#FFFFFF). Positioned directly below headline, centered, each item on its own line. Font height ~28px per line.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
-> - **Readability:** Natural negative space -- warm amber gradient provides consistent contrast for all white text at top and bottom. The ranking text between headline and food adds a playful structural element unique to this post.
+> - **Headline:** "WE DO BOWLS" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned on the left 45% of the canvas, vertically centered (~35-45% height), left-aligned with 60px left margin. The warm amber gradient (#b05e03) provides natural contrast for white text. Spans ~28% of canvas width (~290px), font height ~70px.
+> - **Product callout:** "CHICKEN · GYRO · FALAFEL" -- Bebas Neue (ultra-condensed, tall, all-caps display font, cinematic poster feel, uniform stroke weight), ALL CAPS, white (#FFFFFF). Positioned directly below headline, left-aligned. Each item separated by a centered dot. Spans ~30% of canvas width (~310px), font height ~32px.
+> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Below product callout, left-aligned. Button spans ~22% of canvas width (~225px), font height ~28px.
+> - **Readability:** Natural negative space -- the left 45% of the canvas is warm amber gradient with no food, creating a clean text zone. White Oswald and Bebas Neue text at these sizes reads with strong contrast against the gradient. No overlay needed.
 >
-> **Decorative elements:** Line-drawn fry and falafel outlines at ~20% opacity on gradient background. Fresh herb garnishes near the bowls.
+> **Decorative elements:** Faint line-drawn bowl outlines and rice grain shapes at ~20% opacity on the gradient background in the text zone. Fresh cilantro sprigs near the hero bowl.
 >
-> **Eye flow:** FIRST: Loaded Shawarma Fries (golden, saucy, overflowing -- the undeniable scroll-stopper) --> SECOND: "SNACK RANKING" headline + numbered list (the engagement hook -- do you agree with this ranking?) --> THIRD: Hummus + falafel supporting items + CTA (the full snack menu + action)
+> **Eye flow:** FIRST: Chicken Rice Bowl hero on the right (the product reveal -- a clean, satisfying bowl that looks different from the usual platter content) --> SECOND: "WE DO BOWLS" headline on the left (the menu discovery hook -- names what the viewer didn't know existed) --> THIRD: "CHICKEN · GYRO · FALAFEL" lineup + CTA (the three options + action)
 >
-> **What NOT to include:** No borders, no frames, no stickers, no numbered badges, no clip art.
+> **What NOT to include:** No borders, no frames, no stickers, no clip art. No pita bread or platter elements -- this post is about bowls as a distinct menu category.
 
 ### B. Instagram Caption
 
-**Variation 1 (Primary -- ranking engagement bait):**
+**Variation 1 (Primary -- menu discovery hook):**
 
-🍟🔥 3pm snack ranking:
+🍚🔥 Not a wrap person? We do bowls.
 
-1. Shawarma Fries
-2. Hummus + Pita Chips
-3. Falafel bites
-4. Everything else
+Chicken Rice Bowl. Gyro Rice Bowl. Falafel Rice Bowl. Same quality proteins. Same halal-certified ingredients. Just served over a bed of golden seasoned rice with tzatziki.
 
-Argue in the comments. We're right though.
+Lighter than a platter. Easier than a wrap. All the flavor.
 
 Order on DoorDash -- link in bio! 👌✨
 
-**Variation 2 (Discovery angle):**
+**Variation 2 (Decision paralysis angle):**
 
-🍟🔥 Shawarma Fries exist and you're still ordering regular fries?
+🍚🔥 Three bowls. One hard decision.
 
-Crispy golden fries loaded with carved shawarma, drizzled with tahini. Plus our hummus + pita chips and falafel bites. Your 3pm just got an upgrade.
+Chicken -- grilled, charred, seasoned. Gyro -- carved off the spit, layered. Falafel -- crispy, plant-based, green inside.
 
-Happy National Snack Day.
+All served over golden rice with tzatziki. All halal. All under $14.
+
+Which bowl are you?
+
+Order on DoorDash -- link in bio! 👌✨
+
+**Variation 3 (Lunch energy):**
+
+🍚🔥 Midweek lunch sorted.
+
+Falafel Corner Rice Bowls: pick your protein (chicken, gyro, or falafel), add golden rice, tzatziki, and done. Clean. Fast. Halal.
+
+DoorDash it to the office. Thank us later.
 
 Order on DoorDash -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#NationalSnackDay #ShawarmaFries #LoadedFries #Hummus #PitaChips #Falafel #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #SnackAttack #AfternoonSnack #FoodRanking #HalalFood #DoorDashOrder #FoodDelivery #SacFoodie #GoldenFries #MedSnacks
+#RiceBowl #ChickenBowl #GyroBowl #FalafelBowl #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #BowlFood #HealthyLunch #MealPrep #CleanEating #MediterraneanDiet #LunchIdeas #DoorDashOrder #FoodDelivery #SacFoodie
 
 ### D. Optional Story Caption Version
 
-National Snack Day! Rank these: Shawarma Fries, Hummus + Pita Chips, Falafel Bites. Which is #1?
+Did you know we do bowls? Chicken, Gyro, or Falafel -- all over seasoned rice with tzatziki. Which one are you trying first?
 
-[Ranking poll sticker: "Shawarma Fries" vs "Hummus" vs "Falafel"]
+[Poll sticker: "Chicken Bowl" vs "Gyro Bowl" vs "Falafel Bowl"]
 
 ### E. Optional Reel Hook Text
 
-"Your snack ranking is wrong if Shawarma Fries aren't #1."
+"You've been ordering wraps. But have you tried the bowls?"
 
 ---
 
@@ -1163,12 +1173,12 @@ Every post in this campaign follows these non-negotiable brand standards:
 | **Product name font** | Bebas Neue (ultra-condensed, tall, all-caps display font, cinematic poster feel, uniform stroke weight), ALL CAPS | Used in 8 posts (where product callouts appear) |
 | **CTA/body font** | DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case | All 16 posts |
 | **CTA button style** | White (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button (matching website CTA) | 15 posts (IWD exception: no sales CTA) |
-| **Layout patterns** | Named design pattern per occasion: Z-Pattern (2, 4, 5, 7, 13A, 14), Golden Ratio Split (1, 10, 13B), Asymmetric Hero (3, 6, 12, 15), Food-Framed Center (4, 11), Golden Ratio Split inverted (8) | All 16 posts |
+| **Layout patterns** | Named design pattern per occasion: Z-Pattern (4, 5, 13A, 14), Golden Ratio Split (1, 2, 10, 13B), Asymmetric Hero (3, 6, 7, 12, 15), Food-Framed Center (4, 11), Golden Ratio Split inverted (8) | All 16 posts |
 | **Eye flow** | 3-step reading path specified: FIRST (scroll-stopper) --> SECOND (context/hook) --> THIRD (CTA/action) | All 16 posts |
 | **Readability technique** | Named technique per occasion: Natural negative space on warm gradient (1, 2, 5, 7, 9, 10, 13A, 14), Natural negative space on beige (3, 6, 8, 12, 13B, 15), Food-framed clearing (4, 11), Natural negative space on crimson (9, 14) | All 16 posts |
+| **Serving ware** | White ceramic bowls/plates (designed flyer style); dark ceramic bowls for Rice Bowl lineup (Occasion 7) | All 16 posts |
 | **Environment colors** | Warm amber/burnt orange gradient (#b05e03 to #a33004), warm beige/cream (#fbe2ba to #ffebc6), deep crimson (#660711), brand red (#AD2429), terracotta orange CTA (#D2482B) -- all Playwright-verified from Agent 1 | All 16 posts |
 | **Logo placement** | Falafel Corner flame/teardrop logo at top-left (or top-right for asymmetric layouts) | All 16 posts |
-| **Serving ware** | White ceramic bowls/plates (designed flyer style) | All 16 posts |
 | **Decorative elements** | Line-drawn food sketches at ~20-25% opacity, fresh herb garnishes | 14 posts (IWD and Nowruz/Eid are minimal decoration) |
 | **Caption formula** | Emoji bookends (2 opening + 2 closing) --> scroll-stopping hook --> line break --> 2-4 punchy body lines --> line break --> explicit CTA ("Order on DoorDash -- link in bio!") | All 16 posts |
 | **Caption CTA** | EVERY post has an explicit ordering CTA in the caption text (fixing the #1 weakness of the current feed -- zero caption CTAs) | 15 posts (IWD exception: community post, soft CTA only) |
@@ -1188,9 +1198,8 @@ Every post in this campaign follows these non-negotiable brand standards:
 
 ### Ramadan-to-Eid Bookend Arc (Feb 18 --> Mar 20)
 1. **Ramadan Begins + Ash Wednesday (Feb 18):** Opening post -- establishes halal positioning, dual religious respect, Combo Platter as iftar hero
-2. **Lenten Fridays (Feb 20, 27, Mar 6, 13, 20):** Falafel Wrap as meatless Friday option -- can overlap with Falafel Friday for double hooks
-3. **Eid al-Fitr + Nowruz (Mar 20):** Closing post -- celebrates the end of Ramadan and Persian New Year, family platters, community warmth
-4. **Visual consistency:** Both bookend posts use the Golden Ratio Split (inverted) layout with respectful text zones, creating a recognizable arc
+2. **Eid al-Fitr + Nowruz (Mar 20):** Closing post -- celebrates the end of Ramadan and Persian New Year, family platters, community warmth
+3. **Visual consistency:** Both bookend posts use the Golden Ratio Split (inverted) layout with respectful text zones, creating a recognizable arc
 
 ### Counter-Programming Arc (3 posts)
 - **National Tortilla Chip Day (Feb 24):** Pita chips beat tortilla chips
@@ -1206,8 +1215,8 @@ Every post in this campaign follows these non-negotiable brand standards:
 ### Menu Discovery Arc (3 posts)
 - **Tortilla Chip Day (Feb 24):** Hummus + pita chips from catering menu
 - **National Cold Cuts Day (Mar 3):** Gyro/shawarma quality credibility
-- **National Snack Day (Mar 4):** Shawarma Fries as snack hero + full sides menu
-- **Purpose:** Expand what followers associate with Falafel Corner beyond just falafel wraps
+- **Rice Bowl Lineup (Mar 4):** "We do bowls" -- Chicken, Gyro, and Falafel Rice Bowls as a lighter alternative to platters
+- **Purpose:** Expand what followers associate with Falafel Corner beyond just falafel wraps and platters
 
 ### Sacramento Local Arc (2+ posts)
 - **Kings Game Night (Feb 28-Mar 1):** "Light the beam. Order the food." -- Sacramento-specific sports tie-in
@@ -1216,10 +1225,14 @@ Every post in this campaign follows these non-negotiable brand standards:
 - **Purpose:** Transform from a generic, could-be-anywhere brand to Sacramento's Mediterranean chain
 
 ### Falafel-as-Hero Visual Discovery
-- **First Lenten Friday (Feb 20):** Falafel Wrap cross-section -- green interior visible
 - **National Meatball Day (Mar 9):** Falafel as "OG plant-based meatball" -- green interior on crimson background
 - **St. Patrick's Day (Mar 17):** "Actually green" -- falafel green interior as St. Patrick's Day visual hook
 - **Purpose:** The green falafel interior becomes a signature visual motif unique to Falafel Corner's content
+
+### Product Spotlight Arc (2 posts)
+- **Chicken Platter Hero (Feb 20):** "#1 order on DoorDash" -- social proof + value proposition for the most ordered item
+- **Rice Bowl Lineup (Mar 4):** "We do bowls" -- menu discovery for a product category most followers don't know exists
+- **Purpose:** Dedicate full posts to hero products rather than always tying them to external occasions
 
 ### Recurring Series Differentiation
 - **Falafel Friday:** Deep crimson (#660711) background + Z-Pattern layout = instantly recognizable as Friday content
@@ -1231,9 +1244,9 @@ The current brand voice is a 3/10 energy level with zero personality. This campa
 1. **Counter-programming confidence** (Occasions 3, 4, 10): "Respectfully... pita chips clear"
 2. **Sacramento local pride** (Occasions 5, 11, 13A): "Light the beam. Order the food."
 3. **Cultural awareness and respect** (Occasions 1, 8, 13B): "Eid Mubarak. Happy Nowruz. Halal. Always."
-4. **Engagement hooks** (Occasions 7, 9): "Rank these" / "argue in the comments"
-5. **Menu education** (Occasions 3, 6, 7): "Did you know we have chipotle hummus?"
-6. **Value propositions** (Occasions 4, 14): "$17.50 -- that's two meals"
+4. **Engagement hooks** (Occasions 9, 15): "Which bowl are you?" / "argue in the comments"
+5. **Menu education** (Occasions 3, 6, 7): "Did you know we do bowls?" / chipotle hummus / gyro quality
+6. **Value propositions** (Occasions 2, 4, 14): "Under $17" / "$17.50 -- that's two meals"
 
 The shift should feel like Falafel Corner hired a real social media manager who actually eats there -- not like the brand personality changed overnight. Every post still says "Falafel Corner" and still uses the warm amber/crimson/beige palette. The upgrade is in the captions (personality, CTAs, line breaks, engagement hooks) and the prompt variety (four layout patterns instead of one).
 

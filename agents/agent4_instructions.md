@@ -44,15 +44,11 @@ Before touching the browser, extract all Nano Banana Pro image prompts from `age
    mcp__playwright__browser_snapshot
    ```
 
-3. **Check authentication status.** Look for these signals in the DOM snapshot:
+2. **Check authentication status.** Look for these signals in the DOM snapshot:
    - **Signed in:** User avatar/profile icon in the top-right corner, OR the chat input placeholder says "Ask Gemini" without a prominent "Sign in" button.
    - **Not signed in:** A "Sign in" button is visible in the top-right, OR the page redirected to `accounts.google.com`.
 
 4. **If NOT signed in:**
-   - Take a screenshot for the user:
-     ```
-     mcp__playwright__browser_take_screenshot → filename: "gemini_signin_required.png"
-     ```
    - **STOP and ask the user** to sign in manually through the Playwright browser window. Say:
      > "Gemini requires Google sign-in. Please sign in through the Playwright browser window. I'll wait and continue once you're authenticated."
    - After the user confirms they've signed in, navigate back to `https://gemini.google.com/app` and re-verify.
