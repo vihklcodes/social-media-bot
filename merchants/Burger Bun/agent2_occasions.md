@@ -101,6 +101,22 @@
 
 ---
 
+## Additional Occasions (Added Feb 23, 2026)
+
+### 13. $5 Milkshake Spotlight -- Green Tea Milkshake
+**Date:** Flexible (any posting slot)
+**Why it's relevant:** Burger Bun has won "Best Milkshake in Glendale" in 2018, 2019, 2022, 2024, and 2025 -- five times. They serve $5 homemade milkshakes, which is absurdly cheap for LA. The green tea milkshake is the quirky standout flavor that keeps showing up in recent posts and gets the most surprised reactions. A UGC repost already captured the energy perfectly: "Ain't nobody in LA doing that!!!" This is a menu item that sells itself once people know it exists. Most followers associate Burger Bun with burgers (obviously) -- the milkshake program is the sleeper hit that drives repeat visits and add-on orders.
+**Suggested campaign angle:** "Green tea milkshake. At a burger joint. $5. Yeah, we know." -- Hero the green tea milkshake in the clear dome-lid cup with the branded "BURGER BUN / ENJOY THE BLEND" sticker, held against the kelly green accent wall (color match moment). The tone is playful disbelief -- lean into how unexpected this flavor is at a burger spot. The $5 price point is the scroll-stopper. CTA: Add a shake to your next order. Link in bio.
+
+---
+
+### 14. The Gyro Nobody Expected
+**Date:** Flexible (any posting slot)
+**Why it's relevant:** The restaurant is called Burger Bun. People come for burgers. But the menu also has Mediterranean gyros -- lamb, chicken, or falafel, with tzatziki, wrapped in warm pita. This is peak "wait, they have THAT?" energy. The American-Greek-Mexican fusion identity is Burger Bun's secret weapon for menu discovery, and the gyro is the most surprising item on the menu for someone who's only ever ordered a Boss Burger. Gyros also appeal to a different craving and daypart than burgers, expanding when and why people order from Burger Bun.
+**Suggested campaign angle:** "We're called Burger Bun. We also make gyros. And they're kind of incredible." -- Hero a gyro cross-section or unwrapped shot showing the lamb/chicken, tzatziki drip, lettuce, tomato, and onion spilling out of warm pita. The tone is mock-surprise at their own range -- confident but self-aware. The name "Burger Bun" becomes the hook itself because it creates the expectation gap. CTA: ORDER NOW! Link in bio. (Yes, the gyro. From Burger Bun.)
+
+---
+
 ## Occasion Calendar Summary
 
 | # | Date | Occasion | Primary Menu Hook | Campaign Type |
@@ -117,6 +133,8 @@
 | 10 | Mar 15 | Selection Sunday | Boss Burger, wings, fries spread | March Madness / Hype |
 | 11 | Mar 17 | St. Patrick's Day + First Four | Kobe Wagyu Burger | Cultural + Sports |
 | 12 | Flexible | Carne Asada Torta Spotlight | Carne Asada Torta | Menu Discovery |
+| 13 | Flexible | $5 Milkshake Spotlight (Green Tea) | Green Tea Milkshake, $5 milkshakes | Menu Discovery / Surprise |
+| 14 | Flexible | The Gyro Nobody Expected | Mediterranean Gyro (lamb/chicken/falafel) | Menu Discovery / Surprise |
 
 ---
 
@@ -126,6 +144,7 @@
 - **Game Day Energy (4 posts):** NBA weekend, Selection Sunday, First Four, First Round -- builds a sustained "Burger Bun = game day food" narrative
 - **March Madness Arc (3 posts):** Selection Sunday teaser --> First Four bridge --> First Round payoff. This mirrors the pre-occasion / day-of / continuation framework from the campaign guidelines.
 - **Counter-Programming (2 posts):** Chili Day and Potato Chip Day -- these show the brand's confident, playful personality by saying "our thing is better than that thing"
+- **Menu Discovery Surprises (2 posts):** $5 Green Tea Milkshake and the Gyro -- "wait, they have THAT?" moments that expand what people associate with Burger Bun beyond burgers
 - **Menu Discovery (3 posts):** Tortilla Chip Day (Mexican menu reveal), Cold Cuts Day (pastrami authority moment), and Carne Asada Torta (pure product spotlight) expand what followers associate with Burger Bun beyond just burgers
 - **Happy Hour / Snack (1 post):** National Snack Day directly addresses the merchant's "happy hour / early bird" priority
 - **Early Bird Special (1 recurring post):** 10AM-11AM, 15% off everything, in-person/phone pickup only. Drives morning foot traffic and creates an exclusive "if you know, you know" deal that's not on delivery apps

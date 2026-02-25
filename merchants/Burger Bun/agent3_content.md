@@ -1,7 +1,7 @@
 # Agent 3: Nano Banana Pro Content -- Burger Bun (@burgerbunla)
 
-**Coverage Period:** February 18 -- March 20, 2026
-**Total Occasions:** 12
+**Coverage Period:** February 18 -- March 22, 2026
+**Total Occasions:** 14
 **Brand Voice:** Playful. Confident. Obsessed.
 **Caption Formula:** Short punchy hook --> ". . ." spacing --> "ORDER NOW! Link in bio ⏰️"
 **Brand Colors:** Red (#dd2127 / #C41E2A), Black (#121212), White (#fff), Deep Burgundy (#470001)
@@ -161,7 +161,21 @@ If you know, you know. 10-11AM. 15% off everything. No app needed -- just walk i
 
 ### B. Instagram Caption
 
+**Original (for First Round, Mar 19):**
+
 16 games. 2 days. 1 order. Boss Burger. Jumbo Wings. Fries. Tenders. Your tournament survival kit.
+.
+.
+.
+ORDER NOW! Link in bio ⏰️
+
+**Reframed (for Mar 1 — "March is Here" hype post):**
+
+March is here. March Madness is coming. Start the month right.
+.
+.
+.
+Boss Burger. Jumbo Wings. Fries. Tenders. The spread that carries you through tournament season.
 .
 .
 .
@@ -169,11 +183,13 @@ ORDER NOW! Link in bio ⏰️
 
 ### C. Hashtags (first comment)
 
-#MarchMadness #MarchMadness2026 #NCAAFirstRound #TournamentFood #GameDaySpread #BurgerAndWings #BurgerBun #BurgerBunLA #GlendaleEats #GlendaleFood #LAFoodie #LAEats #BestBurgerLA #WatchPartyFood #CollegeBasketball #NCAA #DoorDashOrder #FoodDelivery #GlendaleCA #MadnessObsession
+#MarchMadness #MarchMadness2026 #MarchIsHere #TournamentSeason #GameDaySpread #BurgerAndWings #BurgerBun #BurgerBunLA #GlendaleEats #GlendaleFood #LAFoodie #LAEats #BestBurgerLA #WatchPartyFood #CollegeBasketball #NCAA #DoorDashOrder #FoodDelivery #GlendaleCA #MadnessObsession
 
 ### D. Optional Story Caption Version
 
-First Round Day 1. 16 games start TODAY. Your survival kit: Boss Burger + Wings + Fries + Tenders. Locked in?
+**Original (for First Round):** First Round Day 1. 16 games start TODAY. Your survival kit: Boss Burger + Wings + Fries + Tenders. Locked in?
+
+**Reframed (for Mar 1):** March is here. March Madness is COMING. Your game day spread starts now. Boss Burger + Wings + Fries + Tenders.
 
 [Countdown sticker to tip-off + Poll: "Ready for the madness?" Yes/Obviously]
 
@@ -633,26 +649,126 @@ The Carne Asada Torta. Have you tried it yet?
 
 ---
 
+## Occasion 13: $5 Milkshake Spotlight -- Green Tea Milkshake
+**Date:** Flexible (any posting slot)
+
+### A. Nano Banana Pro Image Generation Prompt
+
+> **Format:** 1030 x 1350 px Instagram poster, portrait orientation.
+>
+> **Layout:** Asymmetric Hero -- the green tea milkshake occupies the right 60% of the frame, held by a hand entering from the right edge (cropped at the wrist). The headline sits in the left 40% of the canvas, stacked vertically alongside the shake. This creates a magazine-editorial split: the product is the hero on one side, the messaging anchors the other. The hand holding the shake adds human energy and the "just grabbed this" feel that matches Burger Bun's Reel-dominant, caught-in-the-moment aesthetic.
+>
+> **Scene:** A hand holding a tall clear plastic cup with a dome lid containing a vibrant green tea milkshake. The milkshake is a rich, creamy matcha green color, opaque and thick. A branded "BURGER BUN / ENJOY THE BLEND" red circle sticker is visible on the cup. A wide straw pokes through the dome lid. The shake fills the cup almost to the dome. Whipped cream swirl on top visible through the dome lid. The hand enters from the right side of the frame, cropped at the wrist -- casual, not posed. The cup is positioned slightly right-of-center, with the dome lid extending toward the top edge of the frame. The bottom of the cup is cropped by the bottom edge of the frame.
+>
+> **Environment:** Kelly green accent wall (#5AA339) visible in the background behind the milkshake. The green wall and the green shake create an intentional color-match moment -- matcha green product against kelly green wall. Warm, bright lighting.
+>
+> **Color palette:** Bright, warm, high-saturation. Green wall (#5AA339) provides a fresh, bold backdrop that COLOR-MATCHES the green tea milkshake -- this is the intentional design choice. The milkshake is vibrant matcha green. The dome lid is clear. Whipped cream is bright white. The branded sticker is red (#C41E2A) circle with white text. The straw is white or clear. The hand provides warm skin tones. Green dominates the frame (wall + shake), with red sticker as the accent pop.
+>
+> **Food styling:** The milkshake is thick, creamy, and vibrant green -- not watery, not pale. The color should be rich and appealing, like a premium matcha latte. Whipped cream swirl is generous. The branded sticker is prominently visible. The dome lid has slight condensation for freshness. This should look like the most Instagrammable $5 drink in LA.
+>
+> **Text design:**
+> - **Headline:** "$5 SHAKES" -- Boogaloo (bold casual display), weight 400, ALL CAPS. White (#fff). Positioned in the left 40% of the canvas, vertically centered, creating a text column alongside the shake. The kelly green wall (#5AA339) fills the left side of the frame behind the text, providing a clean, uniform backdrop. Spans ~25% of image width (~260px width, ~50px cap height).
+> - **Sub-headline:** "Order now · Link in bio!" -- Satoshi (geometric sans-serif), sentence case, regular weight. White (#fff). Half the headline size. Directly below headline with generous spacing.
+> - **Readability:** Natural wall contrast -- the kelly green wall (#5AA339) fills the left portion of the frame behind the text. The milkshake is on the right side, so the text zone is unobstructed green wall. White Boogaloo text reads cleanly against the mid-tone green.
+>
+> **Eye flow:** FIRST: Green tea milkshake (the vibrant green color against the matching green wall -- visually striking and unexpected for a burger joint) → SECOND: "$5 SHAKES" headline (the price is the scroll-stopper -- $5 for a shake in LA is unheard of) → THIRD: Branded sticker on cup + CTA (brand recognition + action)
+>
+> **Exclusions:** No borders, no frames, no stickers, no matcha leaf graphics, no price tag graphics.
+
+### B. Instagram Caption
+
+Green tea milkshake. At a burger joint. Five dollars. We know.
+.
+.
+.
+ORDER NOW! Link in bio ⏰️
+
+### C. Hashtags (first comment)
+
+#Milkshake #GreenTeaMilkshake #MatchaShake #BestMilkshakeGlendale #FiveDollarShakes #BurgerBun #BurgerBunLA #GlendaleEats #GlendaleFood #LAFoodie #LAEats #CheapEatsLA #MilkshakeObsession #DessertFirst #FoodDelivery #DoorDashOrder #GlendaleCA #LAfood #ShakeItUp #HomemadeMilkshake
+
+### D. Optional Story Caption Version
+
+$5 homemade milkshakes. Green tea is the move. What's your flavor?
+
+[Poll sticker: "Green Tea" vs "Classic Vanilla" vs "Oreo" vs "Strawberry"]
+
+### E. Optional Reel Hook Text
+
+"A green tea milkshake from a burger joint. And it's five bucks."
+
+---
+
+## Occasion 14: The Gyro Nobody Expected
+**Date:** Flexible (any posting slot)
+
+### A. Nano Banana Pro Image Generation Prompt
+
+> **Format:** 1030 x 1350 px Instagram poster, portrait orientation.
+>
+> **Layout:** Z-Pattern -- the eye enters at the headline in the top 20% where bold ALL CAPS white text sits against the orange wall, sweeps right, drops diagonally through the unwrapped gyro hero, and exits at the tzatziki drip and fries at the bottom. Headline at the TOP works because the message ("PLOT TWIST") creates instant curiosity -- the viewer HAS to look down to see what the twist is. And the twist is: a gyro. From Burger Bun. The orange wall provides the promo-style backdrop.
+>
+> **Scene:** A 45-degree angle hero shot of a gyro, partially unwrapped from its foil/paper wrapper to reveal the filling. The gyro is built on a warm, lightly charred pita bread, generously stuffed with thinly sliced seasoned lamb and beef (shawarma-style, with visible grill marks and crispy edges), fresh chopped lettuce, diced tomatoes, thinly sliced red onion, and a generous drizzle of white tzatziki sauce pooling and dripping down one side. The gyro sits in a red plastic tray lined with red-and-white checkered deli paper. A few golden fresh-cut fries are scattered on the checkered paper beside the gyro. A small cup of extra tzatziki sits next to the fries. The gyro is positioned slightly left-of-center, with the fries and tzatziki cup extending toward the right edge. The bottom edge of the tray is cropped by the frame. Close-up, tight framing -- the gyro fills most of the frame.
+>
+> **Environment:** Vibrant orange wall (#E85D15) visible in the background behind the food. Red plastic tray sits on a neutral wood/beige counter (#8B6914). Warm, bright lighting.
+>
+> **Color palette:** Bright, warm, high-saturation. Orange wall (#E85D15) provides a warm, vibrant backdrop. The lamb/beef is rich brown with caramelized crispy edges. Pita is warm golden-beige with charred spots. Lettuce is bright green. Tomatoes are vivid red. Red onion is purple-pink. Tzatziki is creamy white, dripping visibly. Fries are golden. Red tray matches brand red (#dd2127). The overall palette is warm Mediterranean -- rich browns, fresh greens, creamy whites.
+>
+> **Food styling:** The gyro is overstuffed and spilling slightly -- this is NOT a neat, tight wrap. The pita is open enough to show the layers of meat, vegetables, and tzatziki inside. The lamb has visible seasoning and crispy edges from the vertical broiler. Tzatziki drips down one side of the gyro onto the checkered paper -- the "messy drip" is the money shot. The fries scattered on the paper feel casual, like someone just grabbed their order. This should look like the best gyro you've ever seen and the LAST thing you'd expect from a place called Burger Bun.
+>
+> **Text design:**
+> - **Headline:** "PLOT TWIST" -- Boogaloo (bold casual display), weight 400, ALL CAPS. White (#fff). Centered horizontally in the top 20% of the canvas, positioned over the orange wall area above the food. Spans ~28% of image width (~290px width, ~48px cap height).
+> - **Sub-headline:** "Order now · Link in bio!" -- Satoshi (geometric sans-serif), sentence case, regular weight. White (#fff). Half the headline size. Directly below headline with generous spacing.
+> - **Readability:** Natural wall contrast -- the vibrant orange wall (#E85D15) fills the top portion of the frame behind the text, providing a clean, uniform mid-tone backdrop for bold white ALL CAPS text. Same approach as Occasions 1, 6, 9, and 12 -- the orange wall is the most reliable text backdrop in the brand's visual system.
+>
+> **Eye flow:** FIRST: "PLOT TWIST" headline (instant curiosity -- what's the twist?) → SECOND: Gyro hero with tzatziki drip and overstuffed filling (the reveal -- THIS is from Burger Bun?!) → THIRD: Fries + tzatziki cup + CTA (familiar Burger Bun elements grounding the surprise + action)
+>
+> **Exclusions:** No borders, no frames, no stickers, no Greek flag graphics, no "Mediterranean" text labels.
+
+### B. Instagram Caption
+
+We're called Burger Bun. We also make gyros. And they're kind of incredible.
+.
+.
+.
+ORDER NOW! Link in bio ⏰️
+
+### C. Hashtags (first comment)
+
+#Gyro #GyroLove #MediterraneanFood #LambGyro #Tzatziki #BurgerBun #BurgerBunLA #GlendaleEats #GlendaleFood #LAFoodie #LAEats #PlotTwist #MenuSurprise #GreekFood #PitaWrap #FoodDelivery #DoorDashOrder #GlendaleCA #LAfood #GyroObsession
+
+### D. Optional Story Caption Version
+
+We're called Burger Bun. But look at this gyro. What don't we make?
+
+[Question sticker: "What should we spotlight next?"]
+
+### E. Optional Reel Hook Text
+
+"It's called Burger Bun. So why is this gyro so good?"
+
+---
+
 ## Brand Consistency Checklist
 
 Every post in this campaign follows these non-negotiable brand standards:
 
 | Element | Standard | Verified |
 |---------|----------|----------|
-| **Headline font** | Boogaloo (bold casual display), ALL CAPS, weight 400 | All 12 posts |
-| **Sub-headline font** | Satoshi (geometric sans-serif), sentence case, regular weight | All 12 posts |
-| **Layout pattern** | Named design pattern per occasion: Z-Pattern (1, 2, 6, 7, 9, 11), Golden Ratio Split (8), Asymmetric Hero (4, 12), Food-Framed Center (3, 5, 10) | All 12 posts |
-| **Eye flow** | 3-step reading path specified: FIRST (scroll-stopper) → SECOND (context/hook) → THIRD (CTA/action) | All 12 posts |
-| **Readability technique** | Named technique per occasion: Bold text over food (3, 4, 5, 6, 8, 10, 12), Natural wall contrast (1, 7, 9, 11, 2 headline), Surface text zone (none this set), Brand color block (2 deal callout) | All 12 posts |
-| **Serving ware** | Red plastic TRAYS with red-and-white CHECKERED deli paper | All 12 posts |
-| **Caption formula** | Hook --> ". . ." spacing --> "ORDER NOW!" / CTA ⏰️ | All 12 posts |
-| **CTA emoji** | ⏰️ (clock emoji, brand signature) | All 12 posts |
-| **Hashtag placement** | First comment only, never in caption body | All 12 posts |
-| **Image format** | 1030 x 1350 px, portrait orientation | All 12 posts |
-| **Color palette** | Environment: Orange wall (#E85D15), Green wall (#5AA339), Brand Red (#DD2127), Deep Burgundy (#470001), White (#fff) | All 12 posts |
-| **Photography angle** | 45-degree primary, eye-level when showing burger height | All 12 posts |
-| **Tone** | Playful. Confident. Obsessed. | All 12 posts |
-| **No generic holiday posts** | Every post has food tie-in + CTA | All 12 posts |
+| **Headline font** | Boogaloo (bold casual display), ALL CAPS, weight 400 | All 14 posts |
+| **Sub-headline font** | Satoshi (geometric sans-serif), sentence case, regular weight | All 14 posts |
+| **Layout pattern** | Named design pattern per occasion: Z-Pattern (1, 2, 6, 7, 9, 11, 14), Golden Ratio Split (8), Asymmetric Hero (4, 12, 13), Food-Framed Center (3, 5, 10) | All 14 posts |
+| **Eye flow** | 3-step reading path specified: FIRST (scroll-stopper) → SECOND (context/hook) → THIRD (CTA/action) | All 14 posts |
+| **Readability technique** | Named technique per occasion: Bold text over food (3, 4, 5, 6, 8, 10, 12), Natural wall contrast (1, 7, 9, 11, 13, 14, 2 headline), Surface text zone (none this set), Brand color block (2 deal callout) | All 14 posts |
+| **Serving ware** | Red plastic TRAYS with red-and-white CHECKERED deli paper | All 14 posts |
+| **Caption formula** | Hook --> ". . ." spacing --> "ORDER NOW!" / CTA ⏰️ | All 14 posts |
+| **CTA emoji** | ⏰️ (clock emoji, brand signature) | All 14 posts |
+| **Hashtag placement** | First comment only, never in caption body | All 14 posts |
+| **Image format** | 1030 x 1350 px, portrait orientation | All 14 posts |
+| **Color palette** | Environment: Orange wall (#E85D15), Green wall (#5AA339), Brand Red (#DD2127), Deep Burgundy (#470001), White (#fff) | All 14 posts |
+| **Photography angle** | 45-degree primary, eye-level when showing burger height | All 14 posts |
+| **Tone** | Playful. Confident. Obsessed. | All 14 posts |
+| **No generic holiday posts** | Every post has food tie-in + CTA | All 14 posts |
 
 ---
 
@@ -667,10 +783,12 @@ Every post in this campaign follows these non-negotiable brand standards:
 - National Chili Day (Feb 26): Double Decker beats chili
 - National Potato Chip Day (Mar 14): Fresh-cut fries beat chips
 
-**Menu Discovery Arc (3 posts):**
+**Menu Discovery Arc (5 posts):**
 - National Tortilla Chip Day (Feb 24): Mexican menu reveal (Mexican Fries + tacos)
 - National Cold Cuts Day (Mar 3): Pastrami authority moment
 - Carne Asada Torta Spotlight: Pure product hero -- no holiday needed
+- $5 Green Tea Milkshake: The quirky surprise -- a $5 matcha shake at a burger joint
+- The Gyro Nobody Expected: "Plot Twist" -- Mediterranean gyro from a place called Burger Bun
 
 **Early Bird Special (Recurring):**
 - 10AM-11AM, 15% off everything, in-person or phone pickup only

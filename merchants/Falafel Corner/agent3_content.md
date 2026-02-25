@@ -3,7 +3,7 @@
 **Coverage Period:** February 18 -- March 20, 2026
 **Total Occasions:** 14 unique occasions + 2 recurring hooks (Falafel Friday, Meatless Monday)
 **Brand Voice Evolution:** Templated, Generic, Promotional (current) --> Confident. Fresh. Sacramento's Own. (target)
-**Caption Formula (NEW):** Scroll-stopping hook --> line break --> 2-4 punchy body lines --> line break --> "Order on DoorDash -- link in bio!" CTA --> line break --> emoji bookends
+**Caption Formula (NEW):** Scroll-stopping hook --> line break --> 2-4 punchy body lines --> line break --> "Order now -- link in bio!" CTA --> line break --> emoji bookends
 **Brand Colors:** Deep Red/Maroon (#AD2429), Terracotta Orange CTA (#D2482B), White (#FFFFFF)
 **Playwright-Verified Environment Colors:** Primary flyer background: Warm amber/burnt orange gradient (#b05e03 to #a33004) | Secondary: Warm beige/cream (#fbe2ba to #ffebc6) | Deep crimson (#660711 to #910111) | Brand red (#AD2429) | Brand orange CTA (#D2482B) | Food center tones: Golden-brown (#d2a586 to #bb8249)
 **Photography Style:** Studio-quality food hero on designed gradient backgrounds. 60% 45-degree views, 30% overhead flat bowl shots, 10% eye-level. Food centered and fully contained (NOT edge-cropped). Ultra crisp, high-saturation, warm-toned.
@@ -36,7 +36,7 @@
 > - **Logo:** Falafel Corner flame/teardrop logo + "FALAFEL CORNER / MEDITERRANEAN GRILL" positioned at top-left corner of the canvas, within the deep crimson zone. White logo on dark red background.
 > - **Headline:** "IFTAR READY" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the top 38% text zone, centered horizontally, at approximately the 20-30% vertical zone. The deep crimson background (#660711) provides rich, dark contrast for white text -- no overlay needed. Spans ~35% of canvas width (~360px), font height ~70px.
 > - **Product callout:** "HALAL COMBO PLATTER" -- Bebas Neue (ultra-condensed, tall, all-caps display font, cinematic poster feel, uniform stroke weight), ALL CAPS, white (#FFFFFF). Positioned directly below the headline with tight spacing. Spans ~30% of canvas width (~310px), font height ~40px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button (matching website CTA style, border-radius: 1000px, 12px horizontal padding). Positioned at the bottom of the text zone (around 35% vertical position), centered. Button spans ~25% of canvas width (~260px), font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button (matching website CTA style, border-radius: 1000px, 12px horizontal padding). Positioned at the bottom of the text zone (around 35% vertical position), centered. Button spans ~25% of canvas width (~260px), font height ~30px.
 > - **Readability:** Natural negative space -- the deep crimson background (#660711) fills the entire top 38% text zone, providing a solid, uniform dark backdrop. White Oswald and Bebas Neue text at these sizes achieves well above 4.5:1 contrast ratio against the crimson. No overlay needed -- #660711 provides natural contrast.
 >
 > **Decorative elements:** Subtle line-drawn food sketches (pita outline, falafel circle shapes) at ~20% opacity on the deep crimson background zone, matching the existing feed's decorative style. A few fresh herb sprigs (parsley, mint) scattered around the Combo Platter on the gradient background.
@@ -55,7 +55,7 @@ Whether you're breaking fast at sunset or starting Lent today -- we've got you. 
 
 19+ locations across Sacramento. Your iftar is ready.
 
-Order on DoorDash -- link in bio! 🙏✨
+Order now -- link in bio! 🙏✨
 
 **Variation 2 (Iftar-focused):**
 
@@ -65,7 +65,7 @@ Chicken. Gyro. Rice. Hummus. Tzatziki. Pita. All halal-certified, all fresh, all
 
 Ramadan Mubarak, Sacramento.
 
-Order your iftar on DoorDash -- link in bio! 🙏✨
+Order your iftar now -- link in bio! 🙏✨
 
 **Variation 3 (Lent + Ramadan bridge):**
 
@@ -75,15 +75,15 @@ Ramadan begins today. Lent begins today. And our Falafel Wrap has been meatless 
 
 Halal-certified at every Falafel Corner location.
 
-Order on DoorDash -- link in bio! 🙏✨
+Order now -- link in bio! 🙏✨
 
 ### C. Hashtags (first comment)
 
-#RamadanMubarak #Ramadan2026 #AshWednesday #Lent2026 #HalalFood #HalalCertified #IftarMeal #Iftar2026 #MeatlessFriday #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #ComboPlatter #FalafelWrap #GyroWrap #HalalSacramento #DoorDashOrder #FoodDelivery
+#RamadanMubarak #Ramadan2026 #AshWednesday #Lent2026 #HalalFood #HalalCertified #IftarMeal #Iftar2026 #MeatlessFriday #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #ComboPlatter #FalafelWrap #GyroWrap #HalalSacramento #OrderNow #FoodDelivery
 
 ### D. Optional Story Caption Version
 
-Ramadan Mubarak! Lent begins today too. Whether you're fasting or going meatless, Falafel Corner has you covered -- halal, vegetarian, and ready on DoorDash.
+Ramadan Mubarak! Lent begins today too. Whether you're fasting or going meatless, Falafel Corner has you covered -- halal, vegetarian, and ready for delivery.
 
 [Countdown sticker to sunset + Poll: "Combo Platter" vs "Falafel Wrap"]
 
@@ -114,7 +114,7 @@ Ramadan Mubarak! Lent begins today too. Whether you're fasting or going meatless
 > - **Logo:** Falafel Corner flame/teardrop logo + "FALAFEL CORNER / MEDITERRANEAN GRILL" positioned at top-left corner of the canvas on the warm amber gradient. White logo.
 > - **Headline:** "THE ONE EVERYONE ORDERS" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the bottom 38% text zone, centered horizontally, at approximately 70-75% canvas height. The warm amber gradient in the lower zone (#a33004, slightly darker) provides a solid mid-to-dark tone backdrop for white text. Spans ~40% of canvas width (~410px), font height ~60px.
 > - **Product callout:** "CHICKEN PLATTER" -- Bebas Neue (ultra-condensed, tall, all-caps display font, cinematic poster feel, uniform stroke weight), ALL CAPS, white (#FFFFFF). Positioned directly below headline. Spans ~28% of canvas width (~290px), font height ~38px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Bottom 10-12% of canvas, centered. Button spans ~25% of canvas width (~260px), font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Bottom 10-12% of canvas, centered. Button spans ~25% of canvas width (~260px), font height ~30px.
 > - **Readability:** Natural negative space -- the bottom 38% of the canvas is warm amber gradient with no food, transitioning slightly darker. White text reads cleanly against the gradient. No overlay needed.
 >
 > **Decorative elements:** Line-drawn food sketches (chicken leg outline, rice bowl shape) at ~20% opacity on the gradient background in the text zone. Fresh herb sprigs and a lemon wedge near the plate on the gradient background.
@@ -127,13 +127,13 @@ Ramadan Mubarak! Lent begins today too. Whether you're fasting or going meatless
 
 **Variation 1 (Primary -- social proof + value):**
 
-🍗🔥 6,000+ DoorDash reviews and this is still #1.
+🍗🔥 6,000+ reviews and this is still #1.
 
 The Chicken Platter. Grilled chicken with those char marks. Golden rice. Hummus. Tzatziki. Salata. Warm pita. All halal-certified.
 
 One plate. Enough food for two meals. Under $17.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 2 (Portion size flex):**
 
@@ -143,7 +143,7 @@ Grilled chicken. Rice. Hummus. Tzatziki. Salata. Pita. It's giving "I'm set for 
 
 Halal-certified. 19+ locations across Sacramento.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 3 (Simple/direct):**
 
@@ -151,15 +151,15 @@ Order on DoorDash -- link in bio! 👌✨
 
 Grilled to order. Halal-certified. Stacked with rice, hummus, tzatziki, salata, and warm pita. Every single time.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#ChickenPlatter #GrilledChicken #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #BigPortions #MealPrep #RiceBowl #Hummus #HealthyEating #FridayFood #DoorDashOrder #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA
+#ChickenPlatter #GrilledChicken #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #BigPortions #MealPrep #RiceBowl #Hummus #HealthyEating #FridayFood #OrderNow #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA
 
 ### D. Optional Story Caption Version
 
-The Chicken Platter is our #1 order on DoorDash. Have you tried it yet? Rate this plate 1-10.
+The Chicken Platter is our #1 order. Have you tried it yet? Rate this plate 1-10.
 
 [Slider sticker with fire emoji: "Rate this platter"]
 
@@ -190,7 +190,7 @@ The Chicken Platter is our #1 order on DoorDash. Have you tried it yet? Rate thi
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner on the beige gradient. Brand red (#AD2429) logo (dark on light).
 > - **Headline:** "PITA CHIPS CLEAR" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, brand red (#AD2429). Positioned in the left 40% of the canvas, vertically centered (around 40-55% of canvas height), left-aligned with 60px left margin. The warm beige/cream background (#fbe2ba) provides a clean, light backdrop where deep red Oswald text reads with strong contrast and authority. Spans ~35% of canvas width (~360px), font height ~70px.
 > - **Product callout:** "HUMMUS + PITA CHIPS" -- Bebas Neue (ultra-condensed, tall, all-caps display font), ALL CAPS, brand red (#AD2429). Positioned directly below headline, left-aligned. Spans ~25% of canvas width (~260px), font height ~35px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned below the product callout, left-aligned. Button spans ~22% of canvas width (~225px), font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned below the product callout, left-aligned. Button spans ~22% of canvas width (~225px), font height ~28px.
 > - **Readability:** Natural negative space -- the left 40% of the canvas is clean warm beige/cream gradient (#fbe2ba to #ffebc6) with no food elements, creating a wide-open text zone. Brand red (#AD2429) text on beige achieves high contrast without any overlay or treatment. The food is on the right; the text is on the left. Clean separation.
 >
 > **Decorative elements:** Faint line-drawn pita chip triangle outlines at ~20% opacity on the beige background in the text zone area. A few scattered fresh parsley leaves near the hummus bowls.
@@ -209,7 +209,7 @@ Golden. Crispy. Fried to perfection. Dipped in our house-made hummus or chipotle
 
 Catering trays available for your next party too. Just saying.
 
-Order on DoorDash -- link in bio! ✨👌
+Order now -- link in bio! ✨👌
 
 **Variation 2 (Playful challenge):**
 
@@ -219,7 +219,7 @@ Fried. Golden. Perfectly crispy. Paired with house-made hummus or chipotle hummu
 
 Happy National Tortilla Chip Day (pita chip supremacy day).
 
-Order on DoorDash -- link in bio! ✨👌
+Order now -- link in bio! ✨👌
 
 **Variation 3 (Menu discovery angle):**
 
@@ -229,11 +229,11 @@ And buffalo ranch hummus. And house-made classic hummus. All served with golden 
 
 It's National Tortilla Chip Day. Upgrade to pita chips.
 
-Order on DoorDash -- link in bio! ✨👌
+Order now -- link in bio! ✨👌
 
 ### C. Hashtags (first comment)
 
-#NationalTortillaChipDay #PitaChips #HummusLovers #ChipotleHummus #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HealthySnack #DipAndChip #MediterraneanDiet #Hummus #CateringTray #SnackTime #DoorDashOrder #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA
+#NationalTortillaChipDay #PitaChips #HummusLovers #ChipotleHummus #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HealthySnack #DipAndChip #MediterraneanDiet #Hummus #CateringTray #SnackTime #OrderNow #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA
 
 ### D. Optional Story Caption Version
 
@@ -268,7 +268,7 @@ National Tortilla Chip Day. But we're a pita chip household. Which do you prefer
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner on the warm amber gradient. White logo.
 > - **Headline:** "SKIP THE CHILI" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the top 15-25% zone, centered horizontally, in the warm amber gradient space above the food. The warm amber gradient (#b05e03) provides a clean, uniform mid-tone backdrop for white text. No overlay needed -- #b05e03 provides natural contrast. Spans ~32% of canvas width (~330px), font height ~65px.
 > - **Product callout:** "COMBO PLATTER · $17.50" -- Bebas Neue (ultra-condensed, tall, all-caps display font), ALL CAPS, white (#FFFFFF). Positioned directly below the headline. Spans ~28% of canvas width (~290px), font height ~35px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned at bottom 10-12% of canvas, centered. Button spans ~25% of canvas width (~260px), font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned at bottom 10-12% of canvas, centered. Button spans ~25% of canvas width (~260px), font height ~30px.
 > - **Readability:** Natural negative space -- the top 15-25% of the canvas is clean warm amber gradient background above the food, providing an uncluttered zone for the headline. The CTA at the bottom sits over the gradient zone below the plate. No overlay needed.
 >
 > **Decorative elements:** Line-drawn food sketches (rice bowl outline, pita triangle) at ~20% opacity on the gradient background in the top and bottom zones. Fresh herbs scattered on the gradient beside the plate.
@@ -287,7 +287,7 @@ Chicken. Gyro. Rice. Hummus. Tzatziki. Salata. Pita. All for $17.50. That's two 
 
 19 locations across Sacramento. Halal-certified.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 2 (Portion size flex):**
 
@@ -297,11 +297,11 @@ Grilled chicken + gyro meat + rice + hummus + tzatziki + salata + pita. All in o
 
 That's not a meal. That's a whole strategy.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#NationalChiliDay #ComboPlatter #MediterraneanFood #FalafelCorner #SacramentoEats #SacFood #Sacramento #HalalFood #GyroAndChicken #RiceBowl #Hummus #HealthyEating #BigPortions #ComfortFood #DoorDashOrder #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA #StocktonCA
+#NationalChiliDay #ComboPlatter #MediterraneanFood #FalafelCorner #SacramentoEats #SacFood #Sacramento #HalalFood #GyroAndChicken #RiceBowl #Hummus #HealthyEating #BigPortions #ComfortFood #OrderNow #FoodDelivery #SacFoodie #RosevilleCA #FolsomCA #StocktonCA
 
 ### D. Optional Story Caption Version
 
@@ -335,7 +335,7 @@ National Chili Day? Our Combo Platter has chicken, gyro, rice, hummus, tzatziki,
 > **Text design:**
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on gradient.
 > - **Headline:** "GAME NIGHT LINEUP" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the top 15-25% zone, centered. Warm amber gradient (#b05e03) provides natural contrast. Spans ~38% of canvas width (~390px), font height ~65px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12% of canvas, centered. Button spans ~25% of canvas width, font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12% of canvas, centered. Button spans ~25% of canvas width, font height ~30px.
 > - **Readability:** Natural negative space -- warm amber gradient (#b05e03) at top and bottom provides uniform mid-tone contrast for white text. No overlay needed.
 >
 > **Decorative elements:** Line-drawn food sketches at ~20% opacity on gradient. Fresh herb sprigs near the wraps.
@@ -354,9 +354,9 @@ Gyro Wrap. Chicken Shawarma Wrap. Shawarma Fries.
 
 That's a championship-caliber order. We don't make the rules.
 
-Falafel Corner downtown is minutes from Golden 1 Center. Or just DoorDash it to the couch.
+Falafel Corner downtown is minutes from Golden 1 Center. Or just order delivery to the couch.
 
-Order on DoorDash -- link in bio! 🏀✨
+Order now -- link in bio! 🏀✨
 
 **Variation 2 (Group order angle):**
 
@@ -366,11 +366,11 @@ Gyro Wraps for the squad. Shawarma Fries for the table. Combo Platters if you're
 
 Light the beam. Order the food.
 
-Order on DoorDash -- link in bio! 🏀✨
+Order now -- link in bio! 🏀✨
 
 ### C. Hashtags (first comment)
 
-#SacramentoKings #LightTheBeam #KingsBasketball #GameNightFood #GameDay #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #GyroWrap #ShawarmaFries #ChickenShawarma #WatchParty #Golden1Center #SacProud #DoorDashOrder #FoodDelivery #DTSacramento #MidtownSac
+#SacramentoKings #LightTheBeam #KingsBasketball #GameNightFood #GameDay #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #GyroWrap #ShawarmaFries #ChickenShawarma #WatchParty #Golden1Center #SacProud #OrderNow #FoodDelivery #DTSacramento #MidtownSac
 
 ### D. Optional Story Caption Version
 
@@ -405,7 +405,7 @@ Kings game tonight! What's your Falafel Corner game-night order? Wraps? Shawarma
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. Brand red (#AD2429) logo on light background.
 > - **Headline:** "NOT FROM A PACKAGE" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, brand red (#AD2429). Positioned on the left 40% of the canvas, vertically centered (~40-55% height), left-aligned with 60px left margin. The warm beige/cream background (#fbe2ba) provides a clean, light backdrop for dark red text. Spans ~32% of canvas width (~330px), font height ~65px.
 > - **Product callout:** "GYRO WRAP" -- Bebas Neue (ultra-condensed, tall, all-caps display font), ALL CAPS, brand red (#AD2429). Positioned directly below headline, left-aligned. Spans ~20% of canvas width (~205px), font height ~35px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Below product callout, left-aligned. Button spans ~22% of canvas width, font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Below product callout, left-aligned. Button spans ~22% of canvas width, font height ~28px.
 > - **Readability:** Natural negative space -- the left 40% of the canvas is clean beige/cream gradient with no food, providing an open text zone. Brand red (#AD2429) on beige (#fbe2ba) achieves high contrast. No overlay needed.
 >
 > **Decorative elements:** Faint line-drawn pita and meat-slice outlines at ~20% opacity on the beige background in the text zone. A parsley sprig near the tzatziki bowl.
@@ -422,23 +422,23 @@ Kings game tonight! What's your Falafel Corner game-night order? Wraps? Shawarma
 
 Gyro Wrap: thinly sliced, spit-roasted gyro meat with lettuce, tomato, onion, tzatziki, and tahini in warm pita. Halal-certified at every location.
 
-DoorDash reviewers say it best: "Best gyro in Sacramento."
+Reviewers say it best: "Best gyro in Sacramento."
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 2 (Review-driven):**
 
-🥙🔥 "Best gyro I've ever had." -- an actual DoorDash review.
+🥙🔥 "Best gyro I've ever had." -- an actual customer review.
 
 6,000+ reviews. 4.4 stars. And the gyro is what people can't stop talking about. Freshly carved. Halal. Loaded with tzatziki and tahini.
 
 National Cold Cuts Day? Our meat is a different caliber.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#NationalColdCutsDay #GyroWrap #GyroPerfection #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #FreshlyCarved #SpitRoasted #BestGyroSacramento #DoorDashOrder #FoodDelivery #SacFoodie #GyroLovers #MediterraneanDiet #Roseville #DavisCA
+#NationalColdCutsDay #GyroWrap #GyroPerfection #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #FreshlyCarved #SpitRoasted #BestGyroSacramento #OrderNow #FoodDelivery #SacFoodie #GyroLovers #MediterraneanDiet #Roseville #DavisCA
 
 ### D. Optional Story Caption Version
 
@@ -473,7 +473,7 @@ National Cold Cuts Day. Our gyro is carved off the spit, not out of a package. B
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on gradient.
 > - **Headline:** "WE DO BOWLS" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned on the left 45% of the canvas, vertically centered (~35-45% height), left-aligned with 60px left margin. The warm amber gradient (#b05e03) provides natural contrast for white text. Spans ~28% of canvas width (~290px), font height ~70px.
 > - **Product callout:** "CHICKEN · GYRO · FALAFEL" -- Bebas Neue (ultra-condensed, tall, all-caps display font, cinematic poster feel, uniform stroke weight), ALL CAPS, white (#FFFFFF). Positioned directly below headline, left-aligned. Each item separated by a centered dot. Spans ~30% of canvas width (~310px), font height ~32px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Below product callout, left-aligned. Button spans ~22% of canvas width (~225px), font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold (clean, geometric sans-serif with slightly rounded terminals), sentence case, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped button. Below product callout, left-aligned. Button spans ~22% of canvas width (~225px), font height ~28px.
 > - **Readability:** Natural negative space -- the left 45% of the canvas is warm amber gradient with no food, creating a clean text zone. White Oswald and Bebas Neue text at these sizes reads with strong contrast against the gradient. No overlay needed.
 >
 > **Decorative elements:** Faint line-drawn bowl outlines and rice grain shapes at ~20% opacity on the gradient background in the text zone. Fresh cilantro sprigs near the hero bowl.
@@ -492,7 +492,7 @@ Chicken Rice Bowl. Gyro Rice Bowl. Falafel Rice Bowl. Same quality proteins. Sam
 
 Lighter than a platter. Easier than a wrap. All the flavor.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 2 (Decision paralysis angle):**
 
@@ -504,7 +504,7 @@ All served over golden rice with tzatziki. All halal. All under $14.
 
 Which bowl are you?
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 3 (Lunch energy):**
 
@@ -512,13 +512,13 @@ Order on DoorDash -- link in bio! 👌✨
 
 Falafel Corner Rice Bowls: pick your protein (chicken, gyro, or falafel), add golden rice, tzatziki, and done. Clean. Fast. Halal.
 
-DoorDash it to the office. Thank us later.
+Order delivery to the office. Thank us later.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#RiceBowl #ChickenBowl #GyroBowl #FalafelBowl #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #BowlFood #HealthyLunch #MealPrep #CleanEating #MediterraneanDiet #LunchIdeas #DoorDashOrder #FoodDelivery #SacFoodie
+#RiceBowl #ChickenBowl #GyroBowl #FalafelBowl #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #HalalFood #HalalCertified #BowlFood #HealthyLunch #MealPrep #CleanEating #MediterraneanDiet #LunchIdeas #OrderNow #FoodDelivery #SacFoodie
 
 ### D. Optional Story Caption Version
 
@@ -560,7 +560,7 @@ Did you know we do bowls? Chicken, Gyro, or Falafel -- all over seasoned rice wi
 >
 > **Eye flow:** FIRST: Hands assembling the Falafel Wrap (the human element -- first time people appear on the feed, immediately warm and personal) --> SECOND: "EVERY. SINGLE. DAY." headline (the message -- simple, respectful, powerful) --> THIRD: Supporting message + "Happy International Women's Day" (the context and gratitude)
 >
-> **What NOT to include:** No borders, no frames, no stickers, no clip art, no generic "girl power" graphics, no DoorDash CTA on this one. This is a community post, not a sales post.
+> **What NOT to include:** No borders, no frames, no stickers, no clip art, no generic "girl power" graphics, no order CTA on this one. This is a community post, not a sales post.
 
 ### B. Instagram Caption
 
@@ -619,7 +619,7 @@ Happy International Women's Day! Shoutout to the incredible women across every F
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on crimson background.
 > - **Headline:** "THE OG MEATBALL" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the top 15-25% zone, centered. The deep crimson background (#660711) provides rich, dark contrast for white text. No overlay needed -- #660711 provides natural contrast. Spans ~34% of canvas width (~350px), font height ~65px.
 > - **Product callout:** "PLANT-BASED · GLUTEN-FREE · HALAL" -- Bebas Neue (ultra-condensed, tall, all-caps display font), ALL CAPS, white (#FFFFFF). Positioned directly below headline, centered, with dots as separators. Spans ~38% of canvas width (~390px), font height ~30px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
 > - **Readability:** Natural negative space -- deep crimson background (#660711) provides a solid, dark backdrop for white text at top and bottom. Excellent contrast ratio. No overlay needed.
 >
 > **Decorative elements:** Line-drawn falafel ball outlines and herb leaf sketches at ~25% opacity on the crimson background. A few scattered fresh parsley leaves near the plate.
@@ -638,7 +638,7 @@ Chickpeas. Fresh herbs. Garlic. Onion. Spices. Crispy on the outside, green on t
 
 Gluten-free. Halal. And it's Meatless Monday.
 
-Order a Falafel Wrap on DoorDash -- link in bio! 🔥✨
+Order a Falafel Wrap now -- link in bio! 🔥✨
 
 **Variation 2 (Challenge hook):**
 
@@ -648,7 +648,7 @@ Falafel: the original meatless meatball. Crispy. Herb-packed. Gluten-free. Been 
 
 No shade. Just history.
 
-Order on DoorDash -- link in bio! 🔥✨
+Order now -- link in bio! 🔥✨
 
 **Variation 3 (Visual hook):**
 
@@ -658,11 +658,11 @@ Cut one open and find out. Fresh parsley, cilantro, and herbs give falafel its s
 
 It's National Meatball Day + Meatless Monday. Double reason to order.
 
-Order on DoorDash -- link in bio! 🔥✨
+Order now -- link in bio! 🔥✨
 
 ### C. Hashtags (first comment)
 
-#NationalMeatballDay #MeatlessMonday #PlantBased #GlutenFree #Falafel #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #VegetarianFood #HalalFood #HealthyEating #PlantBasedMeatball #FalafelWrap #ChickpeaBalls #MediterraneanDiet #DoorDashOrder #FoodDelivery #GreenInside
+#NationalMeatballDay #MeatlessMonday #PlantBased #GlutenFree #Falafel #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #VegetarianFood #HalalFood #HealthyEating #PlantBasedMeatball #FalafelWrap #ChickpeaBalls #MediterraneanDiet #OrderNow #FoodDelivery #GreenInside
 
 ### D. Optional Story Caption Version
 
@@ -697,7 +697,7 @@ National Meatball Day + Meatless Monday. Our falafel has been the OG plant-based
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on gradient.
 > - **Headline:** "FRIES > CHIPS" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the bottom 38% text zone, centered horizontally, at approximately 70-75% canvas height. The warm amber gradient in the lower zone (#a33004, slightly darker) provides a solid mid-to-dark tone backdrop for white text. Spans ~28% of canvas width (~290px), font height ~70px.
 > - **Product callout:** "SHAWARMA FRIES" -- Bebas Neue (ultra-condensed, tall, all-caps display font), ALL CAPS, white (#FFFFFF). Positioned directly below headline, centered. Spans ~25% of canvas width (~260px), font height ~38px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
 > - **Readability:** Natural negative space -- the bottom 38% of the canvas is warm amber gradient with no food, transitioning slightly darker. White text reads cleanly against the gradient. No overlay needed.
 >
 > **Decorative elements:** Line-drawn fry outlines at ~20% opacity in the text zone area. A few fresh herb sprigs near the bottom of the bowl.
@@ -716,7 +716,7 @@ Golden fries loaded with carved shawarma, drizzled with tahini and garlic sauce.
 
 Available at all 19+ Falafel Corner locations.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 **Variation 2 (Direct challenge):**
 
@@ -724,11 +724,11 @@ Order on DoorDash -- link in bio! 👌✨
 
 And not just any fries. SHAWARMA FRIES. Crispy, loaded with carved chicken shawarma, drizzled with tahini. Chips could never.
 
-Order on DoorDash -- link in bio! 👌✨
+Order now -- link in bio! 👌✨
 
 ### C. Hashtags (first comment)
 
-#NationalPotatoChipDay #ShawarmaFries #LoadedFries #FriesOverChips #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #GoldenFries #ChickenShawarma #TahiniDrizzle #HalalFood #SnackUpgrade #DoorDashOrder #FoodDelivery #SacFoodie #FolsomCA #RosevilleCA #DavisCA
+#NationalPotatoChipDay #ShawarmaFries #LoadedFries #FriesOverChips #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #GoldenFries #ChickenShawarma #TahiniDrizzle #HalalFood #SnackUpgrade #OrderNow #FoodDelivery #SacFoodie #FolsomCA #RosevilleCA #DavisCA
 
 ### D. Optional Story Caption Version
 
@@ -762,7 +762,7 @@ National Potato Chip Day, but we only deal in Shawarma Fries. Which hits harder?
 > **Text design:**
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on gradient.
 > - **Headline:** "BRACKET BUSTED. FOOD ISN'T." -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Positioned in the center clearing of the food-framed composition, approximately at 40-55% canvas height. The warm amber gradient (#b05e03) is visible in the clearing between the food items, providing a mid-tone backdrop for white text. Spans ~40% of canvas width (~410px), font height ~55px. Two lines, centered.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned below the headline in the clearing, centered. Font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned below the headline in the clearing, centered. Font height ~28px.
 > - **Readability:** Food-framed clearing -- the food items naturally surround a clearing where the warm amber gradient is visible. The gradient provides consistent mid-tone contrast for white text. The food frames the text, creating an immersive composition where the viewer reads the message while surrounded by the feast.
 >
 > **Decorative elements:** Minimal -- the food IS the decoration. A few herb sprigs scattered between items.
@@ -781,19 +781,19 @@ Combo Platters for the table. Gyro Wraps for the squad. Shawarma Fries because s
 
 Selection Sunday = get the food right even if the picks aren't.
 
-Order on DoorDash -- link in bio! 🏀✨
+Order now -- link in bio! 🏀✨
 
 **Variation 2 (Catering angle):**
 
 🏀🔥 Selection Sunday. 68 teams. One food order.
 
-Falafel Corner catering: platters, wraps, fries, hummus. Enough to feed the whole bracket pool. 19 locations across Sacramento -- order catering for the big party or DoorDash it to the couch.
+Falafel Corner catering: platters, wraps, fries, hummus. Enough to feed the whole bracket pool. 19 locations across Sacramento -- order catering for the big party or get delivery to the couch.
 
-Order on DoorDash -- link in bio! 🏀✨
+Order now -- link in bio! 🏀✨
 
 ### C. Hashtags (first comment)
 
-#SelectionSunday #MarchMadness #MarchMadness2026 #BracketSzn #GameDayFood #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #ComboPlatter #GyroWrap #ShawarmaFries #WatchParty #NCAA #CollegeBasketball #DoorDashOrder #FoodDelivery #HalalFood #TournamentFood
+#SelectionSunday #MarchMadness #MarchMadness2026 #BracketSzn #GameDayFood #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #ComboPlatter #GyroWrap #ShawarmaFries #WatchParty #NCAA #CollegeBasketball #OrderNow #FoodDelivery #HalalFood #TournamentFood
 
 ### D. Optional Story Caption Version
 
@@ -828,7 +828,7 @@ Selection Sunday! Brackets are set. Now set up the food. What's your Falafel Cor
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-right corner (mirrored position for this asymmetric layout). Brand red (#AD2429) on light background.
 > - **Headline:** "ACTUALLY GREEN" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, brand red (#AD2429). Positioned on the right 45% of the canvas, vertically centered (~40-50% height), right-aligned with 60px right margin. Warm beige/cream background (#fbe2ba) provides clean contrast for red text. Spans ~30% of canvas width (~310px), font height ~65px.
 > - **Supporting text:** "Happy St. Patrick's Day" -- DM Sans SemiBold, sentence case, brand red (#AD2429). Below headline, right-aligned. Font height ~24px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Below supporting text, right-aligned. Font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Below supporting text, right-aligned. Font height ~28px.
 > - **Readability:** Natural negative space -- the right 45% of the canvas is clean beige/cream gradient, providing an open text zone. Brand red on beige achieves high contrast. No overlay needed.
 >
 > **Decorative elements:** Faint line-drawn falafel ball outlines at ~20% opacity in the text zone area. A few fresh parsley leaves scattered near the plate edge, reinforcing the "green" theme naturally.
@@ -847,7 +847,7 @@ Fresh parsley. Cilantro. Herbs. That's what gives falafel its signature green ce
 
 Happy St. Patrick's Day, Sacramento. The greenest thing you'll eat today is at Falafel Corner.
 
-Order on DoorDash -- link in bio! ☘️✨
+Order now -- link in bio! ☘️✨
 
 **Variation 2 (Short and punchy):**
 
@@ -855,7 +855,7 @@ Order on DoorDash -- link in bio! ☘️✨
 
 Fresh herbs. Naturally green. Crispy, golden outside. Happy St. Patrick's Day from all 19+ Falafel Corner locations.
 
-Order on DoorDash -- link in bio! ☘️✨
+Order now -- link in bio! ☘️✨
 
 **Variation 3 (March Madness tie-in):**
 
@@ -863,11 +863,11 @@ Order on DoorDash -- link in bio! ☘️✨
 
 Fun fact: falafel is green inside. Fresh herbs. No food coloring. Just centuries of Mediterranean cooking.
 
-Order on DoorDash -- link in bio! ☘️🏀
+Order now -- link in bio! ☘️🏀
 
 ### C. Hashtags (first comment)
 
-#StPatricksDay #StPaddysDay #GreenFood #FalafelFact #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #NaturallyGreen #FreshHerbs #Falafel #HalalFood #PlantBased #MarchMadness #FirstFour #DoorDashOrder #FoodDelivery #SacFoodie #FalafelWrap
+#StPatricksDay #StPaddysDay #GreenFood #FalafelFact #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #NaturallyGreen #FreshHerbs #Falafel #HalalFood #PlantBased #MarchMadness #FirstFour #OrderNow #FoodDelivery #SacFoodie #FalafelWrap
 
 ### D. Optional Story Caption Version
 
@@ -901,7 +901,7 @@ St. Patrick's Day fun fact: falafel is ACTUALLY green inside. Fresh herbs give i
 > **Text design:**
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on gradient.
 > - **Headline:** "TOURNAMENT FUEL" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Top 15-25% zone, centered. Warm amber gradient (#b05e03) provides natural contrast. Spans ~32% of canvas width (~330px), font height ~65px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Bottom 10-12%, centered. Font height ~30px.
 > - **Readability:** Natural negative space -- warm amber gradient provides consistent contrast for white text at top and bottom. No overlay needed.
 >
 > **Decorative elements:** Line-drawn food sketches at ~20% opacity on gradient. Fresh herb garnishes around the spread.
@@ -918,21 +918,21 @@ St. Patrick's Day fun fact: falafel is ACTUALLY green inside. Fresh herbs give i
 
 Combo Platter. Shawarma Fries. Gyro Wraps. Falafel Wraps. Your March Madness survival kit starts at Falafel Corner.
 
-19+ locations. Halal-certified. DoorDash ready. No timeouts needed.
+19+ locations. Halal-certified. Delivery ready. No timeouts needed.
 
-Order on DoorDash -- link in bio! 🏀✨
+Order now -- link in bio! 🏀✨
 
 **Variation 2 (Short and punchy):**
 
 🏀🔥 First Round tips off today. Your food should've been ordered already.
 
-Combo Platters. Wraps. Shawarma Fries. All halal. All available on DoorDash. Don't wait until halftime.
+Combo Platters. Wraps. Shawarma Fries. All halal. All available for delivery. Don't wait until halftime.
 
-Order on DoorDash -- link in bio! 🏀✨
+Order now -- link in bio! 🏀✨
 
 ### C. Hashtags (first comment)
 
-#MarchMadness #MarchMadness2026 #NCAAFirstRound #TournamentFood #GameDayFood #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #ComboPlatter #ShawarmaFries #GyroWrap #FalafelWrap #HalalFood #WatchParty #DoorDashOrder #FoodDelivery #CollegeBasketball #TournamentFuel
+#MarchMadness #MarchMadness2026 #NCAAFirstRound #TournamentFood #GameDayFood #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #ComboPlatter #ShawarmaFries #GyroWrap #FalafelWrap #HalalFood #WatchParty #OrderNow #FoodDelivery #CollegeBasketball #TournamentFuel
 
 ### D. Optional Story Caption Version
 
@@ -968,7 +968,7 @@ March Madness First Round! 16 games today. What's your Falafel Corner tournament
 > - **Headline:** "EID MUBARAK" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, brand red (#AD2429). Positioned in the top 38% text zone, centered horizontally, at approximately 15-22% canvas height. Warm beige/cream background (#fbe2ba) provides clean, light contrast for red text. Spans ~30% of canvas width (~310px), font height ~60px.
 > - **Supporting headline:** "HAPPY NOWRUZ" -- Oswald Medium, ALL CAPS, brand red (#AD2429). Positioned directly below "EID MUBARAK" with tight spacing. Same size and treatment. Spans ~30% of canvas width (~310px), font height ~60px.
 > - **Body text:** "From our Falafel Corner family to yours. Halal. Always." -- DM Sans SemiBold, sentence case, dark gray (#333333). Positioned below the dual headlines with spacing. Centered. Font height ~22px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned at the bottom of the text zone (~35%), centered. Font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Positioned at the bottom of the text zone (~35%), centered. Font height ~28px.
 > - **Readability:** Natural negative space -- the top 38% of the canvas is clean warm beige/cream gradient, providing an open, uncluttered zone for the dual celebration headlines. Brand red on beige achieves high contrast.
 >
 > **Decorative elements:** Subtle line-drawn floral/herb motifs at ~15% opacity on the beige text zone -- slightly more decorative than usual to match the celebratory mood. Fresh herbs and a lemon slice near the platters in the food zone.
@@ -989,7 +989,7 @@ Family Combo Platters. Falafel Wraps. Shawarma Fries. Catering for the big celeb
 
 Wishing everyone joy, health, and great food.
 
-Order on DoorDash -- link in bio! 🙏✨
+Order now -- link in bio! 🙏✨
 
 **Variation 2 (Community-focused):**
 
@@ -997,13 +997,13 @@ Order on DoorDash -- link in bio! 🙏✨
 
 Eid Mubarak to everyone ending Ramadan today. Happy Nowruz to our Persian community welcoming the new year. Sacramento is beautiful like that.
 
-Falafel Corner: halal, fresh, and ready for your celebration. Family platters, wraps, and sides -- DoorDash or catering.
+Falafel Corner: halal, fresh, and ready for your celebration. Family platters, wraps, and sides -- delivery or catering.
 
-Order on DoorDash -- link in bio! 🙏✨
+Order now -- link in bio! 🙏✨
 
 ### C. Hashtags (first comment)
 
-#EidMubarak #EidAlFitr #Eid2026 #Nowruz #Nowruz2026 #PersianNewYear #HalalFood #HalalCertified #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #FamilyFeast #CelebrateWithFood #CommunityFirst #DoorDashOrder #FoodDelivery #SacProud #HalalSacramento
+#EidMubarak #EidAlFitr #Eid2026 #Nowruz #Nowruz2026 #PersianNewYear #HalalFood #HalalCertified #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #FamilyFeast #CelebrateWithFood #CommunityFirst #OrderNow #FoodDelivery #SacProud #HalalSacramento
 
 ### D. Optional Story Caption Version
 
@@ -1038,7 +1038,7 @@ Eid Mubarak! Happy Nowruz! From our family to yours. Celebrating with Falafel Co
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-left corner. White logo on crimson.
 > - **Headline:** "FALAFEL FRIDAY" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, white (#FFFFFF). Top 15-25% zone, centered. Deep crimson (#660711) provides excellent dark contrast. Spans ~32% of canvas width (~330px), font height ~65px.
 > - **Deal callout (optional, rotate weekly):** "FREE FRIES WITH ANY WRAP" -- Bebas Neue (ultra-condensed, tall, all-caps display font), ALL CAPS, white (#FFFFFF) text inside a terracotta orange (#D2482B) pill-shaped badge (opacity 90%). Positioned at ~75% canvas height, centered. Spans ~30% of canvas width (~310px), font height ~28px. This deal badge rotates -- some weeks it's "free fries," other weeks it's a different spotlight.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF). Bottom 10-12%, centered. Font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF). Bottom 10-12%, centered. Font height ~28px.
 > - **Readability:** Natural negative space -- deep crimson (#660711) provides solid, dark contrast for white text at all positions. No overlay needed.
 >
 > **Decorative elements:** Line-drawn falafel ball outlines at ~25% opacity on crimson background. Fresh herb sprigs near the plate. Small flame/fire decorative elements matching the logo style.
@@ -1057,7 +1057,7 @@ FREE FRIES with the purchase of ANY wrap. The crispiest, freshest falafel in Sac
 
 This is the one. Every Friday. Every Falafel Corner. All 19+ locations.
 
-Order on DoorDash -- link in bio! 🔥👌
+Order now -- link in bio! 🔥👌
 
 **Variation 2 (Routine energy):**
 
@@ -1067,7 +1067,7 @@ Falafel Wrap: crispy chickpea falafel, fresh lettuce, tomato, onion, tzatziki, t
 
 Falafel Friday at every Falafel Corner location.
 
-Order on DoorDash -- link in bio! 🔥👌
+Order now -- link in bio! 🔥👌
 
 **Variation 3 (FOMO angle):**
 
@@ -1077,11 +1077,11 @@ FREE FRIES with any wrap. Crispy. Fresh. Halal. Vegetarian. Gluten-free falafel.
 
 See you at Falafel Corner.
 
-Order on DoorDash -- link in bio! 🔥👌
+Order now -- link in bio! 🔥👌
 
 ### C. Hashtags (first comment)
 
-#FalafelFriday #Falafel #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #FreeFries #FridayVibes #FridayFood #HalalFood #VegetarianFood #GlutenFree #PlantBased #FalafelWrap #FreshIngredients #DoorDashOrder #FoodDelivery #SacFoodie #FridayDeal
+#FalafelFriday #Falafel #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #FreeFries #FridayVibes #FridayFood #HalalFood #VegetarianFood #GlutenFree #PlantBased #FalafelWrap #FreshIngredients #OrderNow #FoodDelivery #SacFoodie #FridayDeal
 
 ### D. Optional Story Caption Version
 
@@ -1116,7 +1116,7 @@ FALAFEL FRIDAY! FREE FRIES with any wrap at every Falafel Corner location. Which
 > - **Logo:** Falafel Corner flame/teardrop logo + text at top-right corner (mirrored for asymmetric layout). Brand red on light background.
 > - **Headline:** "MEATLESS MONDAY" -- Oswald Medium (tall, condensed, geometric sans-serif with uniform stroke width, vertically elongated, authoritative), ALL CAPS, brand red (#AD2429). Positioned on the right 45% of the canvas, vertically centered (~35-50% height), right-aligned with 60px right margin. Warm beige background provides clean contrast. Spans ~30% of canvas width (~310px), font height ~60px.
 > - **Supporting text:** "Plant-based since forever." -- DM Sans SemiBold, sentence case, dark gray (#333333). Below headline, right-aligned. Font height ~22px.
-> - **Sub-headline (CTA):** "Order on DoorDash -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Below supporting text, right-aligned. Font height ~28px.
+> - **Sub-headline (CTA):** "Order now -- link in bio!" -- DM Sans SemiBold, sentence case, white (#FFFFFF) text inside terracotta orange (#D2482B) pill-shaped button. Below supporting text, right-aligned. Font height ~28px.
 > - **Readability:** Natural negative space -- the right 45% is clean beige/cream gradient. Brand red on beige achieves high contrast. No overlay needed.
 >
 > **Decorative elements:** Faint line-drawn herb leaves and chickpea outlines at ~20% opacity in the text zone. Fresh parsley sprigs near the plate.
@@ -1135,7 +1135,7 @@ The Falafel Wrap has been plant-based since forever. Chickpeas. Fresh herbs. Gar
 
 No substitution menu. No "meatless option." Our hero item IS meatless.
 
-Order on DoorDash -- link in bio! ✨🌱
+Order now -- link in bio! ✨🌱
 
 **Variation 2 (Quick/weekly):**
 
@@ -1145,11 +1145,11 @@ Plant-based. Gluten-free. Crispy. Fresh. Under $11. The Falafel Wrap is the easi
 
 All 19+ Falafel Corner locations. Halal-certified.
 
-Order on DoorDash -- link in bio! ✨🌱
+Order now -- link in bio! ✨🌱
 
 ### C. Hashtags (first comment)
 
-#MeatlessMonday #PlantBased #GlutenFree #Falafel #FalafelWrap #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #VegetarianFood #HealthyEating #MediterraneanDiet #MondayMotivation #HalalFood #DoorDashOrder #FoodDelivery #EatClean #SacFoodie #PlantBasedEats
+#MeatlessMonday #PlantBased #GlutenFree #Falafel #FalafelWrap #FalafelCorner #MediterraneanFood #SacramentoEats #SacFood #Sacramento #VegetarianFood #HealthyEating #MediterraneanDiet #MondayMotivation #HalalFood #OrderNow #FoodDelivery #EatClean #SacFoodie #PlantBasedEats
 
 ### D. Optional Story Caption Version
 
@@ -1180,7 +1180,7 @@ Every post in this campaign follows these non-negotiable brand standards:
 | **Environment colors** | Warm amber/burnt orange gradient (#b05e03 to #a33004), warm beige/cream (#fbe2ba to #ffebc6), deep crimson (#660711), brand red (#AD2429), terracotta orange CTA (#D2482B) -- all Playwright-verified from Agent 1 | All 16 posts |
 | **Logo placement** | Falafel Corner flame/teardrop logo at top-left (or top-right for asymmetric layouts) | All 16 posts |
 | **Decorative elements** | Line-drawn food sketches at ~20-25% opacity, fresh herb garnishes | 14 posts (IWD and Nowruz/Eid are minimal decoration) |
-| **Caption formula** | Emoji bookends (2 opening + 2 closing) --> scroll-stopping hook --> line break --> 2-4 punchy body lines --> line break --> explicit CTA ("Order on DoorDash -- link in bio!") | All 16 posts |
+| **Caption formula** | Emoji bookends (2 opening + 2 closing) --> scroll-stopping hook --> line break --> 2-4 punchy body lines --> line break --> explicit CTA ("Order now -- link in bio!") | All 16 posts |
 | **Caption CTA** | EVERY post has an explicit ordering CTA in the caption text (fixing the #1 weakness of the current feed -- zero caption CTAs) | 15 posts (IWD exception: community post, soft CTA only) |
 | **Hashtag count** | 18-20 per post (expanding from current 3-6 to proper Instagram optimization) | All 16 posts |
 | **Hashtag placement** | First comment only (never in caption body) | All 16 posts |

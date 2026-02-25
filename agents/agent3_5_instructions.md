@@ -5,19 +5,24 @@
 ## Prerequisites
 
 - Agent 3 must have already run for the target merchant -- `merchants/{Merchant Name}/agent3_content.md` must exist.
-- At least one photo source folder must exist (see Photo Source Locations below).
+- The merchant's **Business ID** must be available in the Google Sheet `1N-snGtkhdYilf4DBMulQLnPkgOlXIHi3Rtkon04Qi28`, tab "Social Media", column C.
 
 ---
 
 ## Photo Source Locations
 
-Check these locations **in order**. Use the first one that exists and contains image files:
+Check these locations **in priority order**:
 
-1. **Per-merchant folder (preferred):** `merchants/{Merchant Name}/photos/`
-2. **Shared project library (fallback):** `Total New Images/`
-3. **If neither exists** or both are empty: write all occasions as `NO_MATCH` and log: "No photo source folders found for {Merchant Name}. All occasions will use text-only generation."
+1. **DoorDash Storefront (primary):** `https://order.online/business/{BUSINESS_ID}`
+   - Uses the merchant's Business ID from the Google Sheet to navigate to their DoorDash online ordering page.
+   - Scrapes all menu item food photos with their item names via Playwright.
+   - This is the richest photo source — typically 50-100+ menu items with 1200x1200 CDN images.
+   - See **Phase 2** below for the full scraping workflow.
+2. **Per-merchant folder (backup):** `merchants/{Merchant Name}/photos/`
+3. **Shared project library (backup):** `Total New Images/`
+4. **If ALL sources are empty or unavailable:** write all occasions as `NO_MATCH` and log: "No photo sources found for {Merchant Name} (storefront scrape returned 0 images, no local folders). All occasions will use text-only generation."
 
-If both locations exist, scan **both** and merge the inventories (per-merchant photos take priority over shared library when the same food category appears in both).
+Always start with the storefront scrape. If a specific occasion gets `NO_MATCH` from the storefront, check local folders as a backup before finalizing as `NO_MATCH`.
 
 ---
 
@@ -49,31 +54,133 @@ If both locations exist, scan **both** and merge the inventories (per-merchant p
 
 ---
 
-### Phase 2: Scan Available Photos
+### Phase 2: Scrape Photos from DoorDash Storefront (Primary)
 
-1. **Glob for all image files** in the photo source folder(s):
+This is the primary photo source. Scrapes real food photos from the merchant's DoorDash online ordering page using Playwright.
+
+#### Step 2.1: Navigate to the Storefront
+
+1. Get the merchant's **Business ID** from column C of the Google Sheet (use `sheets_read` on `Social Media!C1:D14`, match on Business Name in column D).
+2. Navigate to `https://order.online/business/{BUSINESS_ID}` using Playwright (`browser_navigate`).
+3. The page will redirect to the actual store URL (e.g., `https://order.online/store/365067?pickup=true`). Wait 3 seconds for the page to fully render.
+
+#### Step 2.2: Pull the Merchant Logo
+
+Before scrolling, grab the merchant's logo from the top of the page. The logo is an `img` element with `alt="logo"` and a CDN URL containing `fit=contain`.
+
+```javascript
+async (page) => {
+  await page.waitForTimeout(3000);
+  const logo = await page.evaluate(() => {
+    const img = document.querySelector('img[alt="logo"]');
+    return img ? img.src : null;
+  });
+  return logo;
+}
+```
+
+If found, record it as a special inventory entry: `{ name: "LOGO", src: "{logo_url}" }`. Download and save it to:
+```
+merchants/{Merchant Name}/reference_photos/logo.png
+```
+
+This logo file is always staged regardless of occasion matching — Agent 4 can use it whenever a Nano Banana Pro prompt calls for the merchant's logo on the poster.
+
+#### Step 2.3: Scroll and Collect Menu Item Images
+
+The storefront lazy-loads menu items as you scroll — items only render when their section enters the viewport. You **must scroll incrementally and collect images at each scroll position** to capture everything.
+
+Use `browser_run_code` with the following approach:
+
+```javascript
+async (page) => {
+  await page.waitForTimeout(3000);
+
+  // Accumulate items as we scroll — Map prevents duplicates
+  const allItems = new Map();
+
+  const collectImages = async () => {
+    const items = await page.evaluate(() => {
+      const imgs = document.querySelectorAll('img');
+      return Array.from(imgs)
+        .filter(img => {
+          const src = img.src || '';
+          const alt = img.alt || '';
+          return src.includes('cdn4dd') && alt && alt !== 'logo' && alt !== 'Loading' && alt !== '';
+        })
+        .map(img => ({ name: img.alt, src: img.src }));
+    });
+    for (const item of items) {
+      if (!allItems.has(item.name)) {
+        allItems.set(item.name, item.src);
+      }
+    }
+  };
+
+  // Collect at initial position
+  await collectImages();
+
+  // Scroll incrementally (400px steps, 600ms pause) and collect at each step
+  const scrollHeight = await page.evaluate(() => document.body.scrollHeight);
+  for (let y = 0; y <= scrollHeight; y += 400) {
+    await page.evaluate((scrollY) => window.scrollTo(0, scrollY), y);
+    await page.waitForTimeout(600);
+    await collectImages();
+  }
+
+  // Return as array of {name, src} objects
+  return JSON.stringify(Array.from(allItems.entries()).map(([name, src]) => ({ name, src })));
+}
+```
+
+#### Step 2.4: Build the Storefront Photo Inventory
+
+The returned data is an array of `{name, src}` objects where:
+- **`name`** = the menu item name from the `img` alt text (e.g., "Mofongo de Camarones", "Bistec sandwich", "Pernil")
+- **`src`** = the CDN image URL (format: `https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=auto,quality=90/media/photosV2/{uuid}-retina-large.jpg`)
+
+Build an inventory list organized by item name. The image URLs are 1200x1200 resolution — suitable for poster generation.
+
+**Log:** "Storefront scrape for {Merchant Name} (Business ID: {ID}): {N} unique menu items with photos found."
+
+#### Step 2.5: Download Matched Photos
+
+For each occasion that gets a MATCH or PARTIAL_MATCH against the storefront inventory (Phase 3), download the matched image:
+
+1. Use Playwright to navigate to the image URL directly, or use `browser_run_code` to fetch and save:
+   ```javascript
+   async (page) => {
+     const response = await page.goto('{IMAGE_URL}');
+     const buffer = await response.body();
+     require('fs').writeFileSync('{SAVE_PATH}', buffer);
+   }
    ```
-   Glob: {photo_source}/**/*.png
-   Glob: {photo_source}/**/*.jpg
-   Glob: {photo_source}/**/*.jpeg
+2. Save to `merchants/{Merchant Name}/reference_photos/occasion_{N}_{food_slug}.jpg`
+
+This is the primary path for staging photos into `reference_photos/`.
+
+---
+
+### Phase 2B: Scan Local Photo Folders (Backup)
+
+Use this **only for occasions that got NO_MATCH from the storefront scrape.** Check if local folders have a photo that the storefront didn't.
+
+1. **Glob for all image files** in the backup folder(s):
+   ```
+   Glob: merchants/{Merchant Name}/photos/**/*.png
+   Glob: merchants/{Merchant Name}/photos/**/*.jpg
+   Glob: Total New Images/**/*.png
+   Glob: Total New Images/**/*.jpg
    ```
 
 2. **Build a photo inventory** organized by subfolder name. The subfolder structure is typically:
    ```
    {Category}/{Item Name}/{number}.png
    ```
-   Example inventory:
-   ```
-   Platters/Platter Chicken/  → 25 photos (1.png through 30.png with gaps)
-   Platters/Platter Falafel/  → 4 photos (1.png through 4.png)
-   Mediterranean Fries/Shawarma Fries/ → 2 photos (9.png, 39.png)
-   Mediterranean Fries/Badmash Fries/  → 1 photo (10.png)
-   Chicken & Sandwich/Chicken Nuggets/ → 2 photos (14.png, 21.png)
-   Chicken & Sandwich/Chicken Wings/   → 1 photo (44.png)
-   Appetizer/Quesadilla/              → 1 photo (1.png)
-   ```
 
-3. **Log the inventory:** "{N} total photos found across {M} categories in {photo_source_path}."
+3. **Re-run Phase 3 matching** for any NO_MATCH occasions against this local inventory. If a match is found, upgrade it from NO_MATCH to MATCH or PARTIAL_MATCH.
+
+4. If no local folders exist or they're empty, skip this phase entirely.
 
 ---
 
@@ -83,35 +190,40 @@ For each occasion extracted in Phase 1:
 
 #### Step 3a: Keyword Matching
 
-Compare the occasion's `hero_food_keywords` against the photo inventory's subfolder names (the `{Item Name}` level). Use case-insensitive keyword overlap:
+Compare the occasion's `hero_food_keywords` against the photo inventory. Match against the storefront inventory's `name` field (menu item alt text) first. For any NO_MATCH occasions that fall through to Phase 2B local folders, match against subfolder names (the `{Item Name}` level).
 
-| Prompt Keywords | Matching Folder | Match Type |
+Use **case-insensitive keyword overlap** for both:
+
+| Prompt Keywords | Inventory Item | Match Type |
 |----------------|----------------|------------|
-| "Combo Platter" + "chicken" | `Platter Chicken/` | **MATCH** (exact item) |
+| "Combo Platter" + "chicken" | `Platter Chicken/` OR "Chicarron de pollo sin hueso" | **MATCH** (exact item) |
 | "Falafel Wrap" | `Platter Falafel/` | **PARTIAL_MATCH** (same protein, different format -- platter vs wrap) |
 | "Shawarma Fries" | `Shawarma Fries/` | **MATCH** (exact item) |
+| "Mofongo" | "Mofongo de Camarones" or "Mofongo de Pollo" | **MATCH** (exact item — pick the variant closest to the prompt's description) |
 | "Chicken Wings" | `Chicken Wings/` | **MATCH** (exact item) |
-| "Gyro Wrap" | (no gyro folder) | **NO_MATCH** |
-| "Hummus bowl" | (no hummus folder) | **NO_MATCH** |
+| "Pernil" | "Pernil" or "Pernil with Rice" | **MATCH** (exact item) |
+| "Gyro Wrap" | (no match in inventory) | **NO_MATCH** |
 
 **Matching rules:**
-- **MATCH**: The folder name directly corresponds to the menu item in the prompt (same food type AND presentation)
-- **PARTIAL_MATCH**: The folder contains the same protein/food type but in a different format (platter vs wrap, fries vs bowl, etc.)
-- **NO_MATCH**: No folder contains food related to the prompt's hero item
+- **MATCH**: The inventory item directly corresponds to the menu item in the prompt (same food type AND presentation)
+- **PARTIAL_MATCH**: The inventory item contains the same protein/food type but in a different format (platter vs wrap, fries vs bowl, "with rice" vs "with tostone", etc.)
+- **NO_MATCH**: No inventory item contains food related to the prompt's hero item
 - **Do NOT match unrelated food types.** A chicken platter photo should never match a falafel occasion or vice versa.
+- **For storefront matches with multiple variants** (e.g., "Mofongo de Pollo", "Mofongo de Camarones", "Mofongo de Res"), pick the variant that best matches the prompt's specific description. If the prompt says "shrimp mofongo," match "Mofongo de Camarones."
 
-#### Step 3b: Visual Selection (when a folder matches)
+#### Step 3b: Visual Selection (when a match is found)
 
-If a matching folder has **multiple photos**, visually inspect candidates to select the best one:
+**Storefront photos (primary):** Each menu item has exactly one photo (its CDN image). If multiple storefront items match the same occasion keyword (e.g., "Mofongo de Pollo" and "Mofongo de Camarones" both match "mofongo"), use Playwright to take a screenshot of each candidate item on the page, visually compare, and select the one that best matches the prompt's description.
+
+**Local folder photos (backup, Phase 2B only):** If a matching folder has **multiple photos**, visually inspect candidates:
 
 1. **Read 3-5 candidate images** using the Read tool (which can view images natively).
 2. **Score each candidate** against the occasion's prompt requirements:
-   - **Angle match** (highest priority): Does the photo's camera angle match what the prompt specifies? Overhead prompt → prefer overhead photo. 45-degree prompt → prefer 45-degree photo.
-   - **Composition match**: Is the food centered? Is the full plate/platter visible? Is the framing clean?
-   - **Quality**: Sharpness, lighting warmth, color saturation. Prefer bright, warm, high-saturation photos that match the brand's studio aesthetic.
-   - **Background**: Photos with solid color backgrounds (especially red, warm tones) integrate more naturally into the poster gradient backgrounds.
+   - **Angle match** (highest priority): Does the photo's camera angle match what the prompt specifies?
+   - **Composition match**: Is the food centered? Is the full plate/platter visible?
+   - **Quality**: Sharpness, lighting warmth, color saturation.
+   - **Background**: Solid color backgrounds integrate more naturally into poster gradients.
 3. **Select the single best photo** for this occasion.
-4. If the folder has only 1 photo, use it (no comparison needed).
 
 #### Step 3c: Record the Match
 
@@ -122,7 +234,38 @@ For each occasion, record:
 
 ---
 
-### Phase 4: Write Output
+### Phase 4: Stage Reference Photos for Agent 4
+
+Copy each matched photo into a standardized folder so Agent 4 can always find them without re-running Agent 3.5:
+
+1. **Create the folder:** `merchants/{Merchant Name}/reference_photos/`
+   - If the folder already exists, **clear it first** (delete all files inside) to avoid stale photos from a previous run.
+   - **Always stage the logo** (from Step 2.2) as `reference_photos/logo.png`, regardless of occasion matching. Agent 4 uses this whenever a Nano Banana Pro prompt includes the merchant's logo on the poster.
+
+2. **For each occasion with a MATCH or PARTIAL_MATCH**, stage the photo into `reference_photos/` with a predictable occasion-based filename:
+   ```
+   reference_photos/occasion_{N}_{food_slug}.jpg
+   ```
+   - `{N}` = occasion number (e.g., `1`, `2`, `13a`)
+   - `{food_slug}` = short slugified hero food name (lowercase, underscores, max 40 chars). Examples:
+     - Fisherman's Platter → `fishermans_platter`
+     - Pancake Breakfast → `pancake_breakfast`
+     - Turkish Bacon Swiss → `turkey_bacon_swiss`
+   - **Dual-hero occasions** (two photos): Use suffix `a` and `b`:
+     ```
+     occasion_6a_turkey_bacon_swiss.jpg
+     occasion_6b_reuben.jpg
+     ```
+   - **Storefront source (typical):** Download the CDN image using Phase 2 Step 2.5 and save directly to `reference_photos/`.
+   - **Local folder source (backup):** Copy the file. Preserve the original — do not move.
+
+3. **For NO_MATCH occasions**, do not create a file. Agent 4 will detect the absence and use text-only generation.
+
+4. **Log:** "Staged {count} reference photos to merchants/{Merchant Name}/reference_photos/."
+
+---
+
+### Phase 5: Write Output
 
 Write the mapping file to `merchants/{Merchant Name}/agent3_5_photos.md`:
 
@@ -130,7 +273,8 @@ Write the mapping file to `merchants/{Merchant Name}/agent3_5_photos.md`:
 # Agent 3.5: Photo Matches -- {Merchant Name}
 
 **Date:** {today's date}
-**Photo Source:** {path(s) scanned}
+**Photo Source:** {path(s) scanned — e.g., "DoorDash Storefront (Business ID: 14600429)" or "merchants/La Cocina/photos/"}
+**Logo:** {Saved to reference_photos/logo.png | Not found on storefront}
 **Total Occasions:** {N}
 **Matched:** {count} | **Partial:** {count} | **No Match:** {count}
 
@@ -185,17 +329,21 @@ Log the summary: "Agent 3.5 complete for {Merchant Name}: {matched} matches, {pa
 | Scenario | Action |
 |----------|--------|
 | `agent3_content.md` not found | Stop and tell user to run Agent 3 first |
-| No photo source folders exist | Write all occasions as NO_MATCH, log the issue |
-| Photo folder exists but is empty | Same as above -- all NO_MATCH |
-| Cannot read/view an image file | Skip that photo, try next candidate in folder |
+| Storefront page fails to load or redirects to error | Log the error, fall back to local folders (Phase 2B). If no local folders either, write all as NO_MATCH |
+| Storefront scrape returns 0 images | Log: "Storefront has no menu photos for Business ID {ID}." Write all occasions as NO_MATCH |
+| Business ID not found in Google Sheet | Stop and ask user for the Business ID |
+| Cannot read/view an image file | Skip that photo, try next candidate |
+| Cannot download a storefront CDN image | Log the failed URL, mark that occasion as NO_MATCH |
 | agent3_content.md has no parseable occasions | Stop and report parsing failure |
 
 ---
 
 ## File Output
 
-**Reads:** `merchants/{Merchant Name}/agent3_content.md` + photo source folder(s)
+**Reads:** `merchants/{Merchant Name}/agent3_content.md` + photo source folder(s) OR DoorDash storefront via Playwright
+**Reads:** Google Sheet `1N-snGtkhdYilf4DBMulQLnPkgOlXIHi3Rtkon04Qi28`, tab "Social Media" (for Business ID, column C)
 **Writes:** `merchants/{Merchant Name}/agent3_5_photos.md`
+**Writes:** Staged reference photos to `merchants/{Merchant Name}/reference_photos/`
 
 ---
 
@@ -203,6 +351,7 @@ Log the summary: "Agent 3.5 complete for {Merchant Name}: {matched} matches, {pa
 
 - **Do NOT modify `agent3_content.md`** -- it is read-only input.
 - **Do NOT move, rename, or modify any photo files** -- read-only access to the photo library.
-- **Agent 3.5 is optional.** If it has not been run, Agent 4 proceeds with text-only generation (backward compatible).
-- **Re-running Agent 3.5** will overwrite the previous `agent3_5_photos.md`. This is expected if Agent 3 content changes or new photos are added.
+- **Agent 3.5 is required.** Always run Agent 3.5 before Agent 4. If Agent 3.5 has not been run, pause and run it before proceeding with image generation.
+- **Re-running Agent 3.5** will overwrite the previous `agent3_5_photos.md` and re-stage `reference_photos/`. This is expected if Agent 3 content changes or new photos are added.
 - **Photo paths must be absolute** in the output file so Agent 4 can use them directly with `browser_file_upload`.
+- **The `reference_photos/` folder is the handoff to Agent 4.** Agent 4 reads from this folder directly — it does not need to parse `agent3_5_photos.md` to find photos. The mapping file is for human reference and debugging.
