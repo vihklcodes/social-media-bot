@@ -53,9 +53,9 @@
 Mofongo Monday just hit different 🔥
 
 Three ways to start your week right:
-🟡 Con camarones al ajillo
-🟡 Con churrasco
-🟡 Clásico con chicharrón
+🟡 Con pollo
+🟡 Con carne frita
+🟡 Clásico
 
 Which one are you grabbing? Drop your order below 👇
 
@@ -74,7 +74,7 @@ MOFONGO MONDAY 🇩🇴🔥
 
 Tu semana empieza con sazón.
 
-Mofongo con camarones. Mofongo con churrasco. Mofongo clásico. Every single one hits.
+Mofongo con pollo. Mofongo con carne frita. Mofongo clásico. Every single one hits.
 
 Open Mon-Fri 8am-9pm
 📞 856-324-0269

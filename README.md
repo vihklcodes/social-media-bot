@@ -1,127 +1,135 @@
-# Social Media Bot
+# AI Social Media Campaign Bot
 
-AI-powered Instagram campaign engine that generates occasion-based content for DoorDash restaurant merchants. A 4-agent pipeline analyzes each merchant's brand, identifies timely occasions, writes image prompts + captions, and generates ready-to-post promotional flyers via Google Gemini.
+**DoorDash Pro/Enterprise Strategy & Ops** | Vickie Hua | Feb-Mar 2026
 
-## How It Works
+An AI-driven social media content pipeline that generates occasion-based Instagram posts for DoorDash restaurant merchants. Built with Claude Code, Playwright, Snowflake, and Gemini — no manual design work required.
 
-The system runs a sequential 4-agent workflow for each merchant:
+---
 
-```
-Agent 1 (Brand Intel)  →  Agent 2 (Occasions)  →  Agent 3 (Content)  →  Agent 4 (Image Gen)
-```
+## What This Is
 
-| Agent | What It Does | Output |
-|-------|-------------|--------|
-| **Agent 1** | Scrapes the merchant's website and Instagram via Playwright. Extracts brand colors (hex-verified), typography, photography style, caption voice, and cultural identity. | `agent1_brand.md` |
-| **Agent 2** | Identifies 3 relevant occasions per week for the next 30 days — holidays, cultural moments, menu highlights, Mx-requested promos. | `agent2_occasions.md` |
-| **Agent 3** | Writes detailed Nano Banana Pro image generation prompts (1030x1350px flyer specs) and Instagram captions for each occasion. | `agent3_content.md` |
-| **Agent 4** | Feeds prompts into Google Gemini to generate the final poster images. Can run via Playwright automation or the `generate_image.py` script. | `final_images/*.png` |
+An experiment to prove that AI-generated social media campaigns can drive measurable engagement uplift and correlate to DoorDash order volume growth for 3P marketplace merchants.
 
-Each agent reads the previous agent's output — no external tools needed for inter-agent communication.
+- **13 merchants** across 3 follower tiers (micro, small, medium)
+- **3 posts per week** per merchant — occasion-based, brand-matched content
+- **5-agent pipeline** that takes a merchant from zero context to ready-to-post images + captions
+- **Baseline metrics captured** pre-campaign to measure lift
 
-## Merchant Roster
+## The 5-Agent Pipeline
 
-13 confirmed DoorDash merchants across 3 follower tiers:
-
-| Tier | Merchants |
-|------|-----------|
-| **< 100 followers** | Sumo Ramen, Jalisco Restaurant, Thai Cortez |
-| **100 – 5K** | Falafel Corner, Los Ocampos, Tee Jayes, Halal Express, Burger Bun, Tio Nacho |
-| **5K+** | Kaisen Don, La Cocina, 323 Hibachi Grill, Chelo |
-
-The source of truth for merchant data (emails, cuisine, Instagram URLs, website URLs, follower counts, order volume) lives in `AI comeback - Social Media .csv`.
-
-## Setup
-
-### Prerequisites
-
-- [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) (runs the agent workflow)
-- [Node.js](https://nodejs.org/) (for Playwright MCP server)
-- Python 3.10+ (for the standalone image generation script)
-
-### Install
-
-```bash
-# Clone the repo
-git clone https://github.com/vihklcodes/social-media-bot.git
-cd social-media-bot
-
-# Set up Python environment (for generate_image.py)
-python3 -m venv .venv
-source .venv/bin/activate
-pip install google-genai python-dotenv
-
-# Create .env with your Gemini API key
-echo "GEMINI_API_KEY=your-api-key-here" > .env
-```
-
-Get a Gemini API key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
-
-The Playwright MCP server is configured in `.mcp.json` and launches automatically when Claude Code runs.
-
-## Running the Agents
-
-Open Claude Code in the project directory and run agents per merchant:
+Each agent reads the previous agent's output as markdown files. No databases, no APIs between agents — just files.
 
 ```
-# Run all 4 agents for a merchant
-> run the agents for La Cocina
-
-# Run a specific agent
-> run agent 1 for Burger Bun
-> run agent 3 for Falafel Corner
+Agent 1: Brand Intelligence          → agent1_brand.md
+    ↓
+Agent 2: Occasion Strategist         → agent2_occasions.md
+    ↓
+Agent 3: Content Architect           → agent3_content.md
+    ↓
+Agent 3.5: Photo Matcher             → agent3_5_photos.md + reference_photos/
+    ↓
+Agent 4: Image Generator             → final_images/
 ```
 
-Agents read their instructions from `agents/agent{N}_instructions.md` and write outputs to `merchants/{Merchant Name}/`.
+| Agent | What It Does | Key Tools |
+|-------|-------------|-----------|
+| **1 — Brand Intelligence** | Scrapes merchant's Instagram + website via Playwright. Pixel-extracts hex colors from real posts. Builds a 14-section Brand Replication Blueprint. | Playwright, canvas pixel sampling |
+| **2 — Occasion Strategist** | Queries Snowflake for cuisine tags, then maps relevant occasions (holidays, food days, local events) to the next 30 days. | Snowflake `dimension_store` |
+| **3 — Content Architect** | Writes 2-3 caption variations + ultra-detailed image generation prompts (1030x1350 Instagram posters) per occasion. Uses brand colors, fonts, and tone from Agent 1. | — |
+| **3.5 — Photo Matcher** | Scrapes DoorDash storefront photos as reference images for each occasion's hero food. Stages matched photos locally. **Required before Agent 4.** | Playwright, DoorDash storefront |
+| **4 — Image Generator** | Opens Gemini via Playwright, uploads reference photos, pastes prompts, downloads generated images. Fully automated. | Playwright → Gemini Pro |
 
-### Standalone Image Generation
+## Current Status (Mar 2026)
 
-You can also generate images directly with the Python script (bypasses Agent 4's Playwright automation):
+### Pipeline Progress
 
-```bash
-# Generate from a direct prompt
-python generate_image.py "Your prompt here" -o output.png
+| Merchant | Agent 1 | Agent 2 | Agent 3 | Agent 3.5 | Agent 4 | Bio Audit | Images |
+|----------|:-------:|:-------:|:-------:|:---------:|:-------:|:---------:|-------:|
+| **Chelo** | Done | Done | Done | Done | Done | Done | 13 |
+| **Falafel Corner** | Done | Done | Done | Done | Done | Done | 15 |
+| **Burger Bun** | Done | Done | Done | Done | Done | Done | 14 |
+| **Thai Cortez** | Done | Done | Done | Done | Done | Done | 12 |
+| **La Cocina** | Done | Done | Done | Done | Done | Done | 11+ |
+| **Jalisco** | Done | Done | Done | Done | Done | Done | 13 |
+| **Shamrocks Ale House** | Done | Done | Done | Done | Done | Done | 14 |
+| **Tio Nacho** | Done | Done | Done | Done | Done | — | 14 |
+| **Tee Jayes** | Done | Done | Done | Done | — | Done | — |
+| Merchants 10-13 | — | — | — | — | — | — | — |
 
-# Generate from a merchant's agent3_content.md
-python generate_image.py --merchant "La Cocina" --occasion 1
+**9 of 13 merchants** have completed the full agent pipeline. **8 merchants** have final images generated and ready to post.
 
-# Generate all occasions for a merchant
-python generate_image.py --merchant "Burger Bun"
-```
+### Pre-Campaign Baselines
+
+Scraped via Instaloader on Feb 23, 2026:
+
+| Merchant | Followers | Avg Likes | Eng. Rate | MP Weekly Orders | SF Weekly Orders |
+|----------|----------:|----------:|----------:|-----------------:|-----------------:|
+| Burger Bun | **2,418** | 9.4 | **0.49%** | 283.9 | 4.1 |
+| Chelo | **7,409** | 174.8 | **2.44%** | 24.2 | 0.3 |
+| Falafel Corner | **134** | 0.7 | **0.50%** | 1,806.0 | 129.1 |
+| La Cocina | **8,739** | 88.8 | **1.10%** | 231.0 | 9.1 |
+| Tee Jayes | **1,029** | 2.2 | **0.23%** | 951.2 | 70.9 |
+| Thai Cortez | **64** | 5.6 | **9.24%** | 41.2 | 40.7 |
+
+**Biggest opportunities:** Tee Jayes (0.23% engagement) and Falafel Corner (1,806 orders/wk but only 134 followers).
 
 ## Project Structure
 
 ```
-├── AI comeback - Social Media .csv   # Merchant roster (source of truth)
-├── CLAUDE.md                         # Agent instructions & project rules
-├── generate_image.py                 # Standalone Gemini image generation script
-├── .mcp.json                         # Playwright MCP server config
-├── .env                              # Gemini API key (not committed)
-├── agents/
-│   ├── agent1_instructions.md        # Brand intelligence & feed deconstruction
-│   ├── agent2_instructions.md        # Occasion strategy
-│   ├── agent3_instructions.md        # Nano Banana Pro prompt & caption creation
-│   └── agent4_instructions.md        # Playwright → Gemini image generation
-└── merchants/
-    └── {Merchant Name}/
-        ├── agent1_brand.md           # Brand analysis output
-        ├── agent2_occasions.md       # Occasion calendar output
-        ├── agent3_content.md         # Image prompts + captions output
-        ├── screenshots/              # Playwright screenshots (brand research)
-        └── final_images/             # Generated poster images
+social-media/
+├── CLAUDE.md                  # Agent instructions + project rules
+├── README.md                  # This file
+├── midpoint-reachout.md       # Mx communication templates
+├── agents/                    # Detailed instructions for each agent
+│   ├── agent1_instructions.md
+│   ├── agent2_instructions.md
+│   ├── agent3_instructions.md
+│   ├── agent3_5_instructions.md
+│   └── agent4_instructions.md
+├── merchants/                 # One folder per merchant
+│   └── {Merchant Name}/
+│       ├── agent1_brand.md        # Brand Replication Blueprint
+│       ├── agent2_occasions.md    # Occasion recommendations
+│       ├── agent3_content.md      # Captions + image prompts
+│       ├── agent3_5_photos.md     # Photo matching results
+│       ├── bio_optimization/      # Instagram bio audit
+│       ├── reference_photos/      # Storefront photos (Agent 3.5)
+│       └── final_images/          # Generated posters (Agent 4)
+├── pre-post-stats/            # Baseline metrics + scraping scripts
+├── scripts/                   # Google Sheets automation (Python)
+└── workspace/                 # Playwright test workspace
 ```
 
-## Content Rules
+## Tracking
 
-- 3 posts per week per merchant
-- Every post is occasion-based (holidays, cultural moments, menu highlights)
-- Bilingual where appropriate (matches merchant's audience)
-- Each post includes: scroll-stopping hook, body copy, CTA, 15-20 hashtags
-- Images are 1030x1350px promotional flyers designed for Instagram feed
+All merchant data, pipeline status, and posting calendars live in a single Google Sheet:
+- **Social Media tab** — merchant info + agent pipeline status (columns P-T)
+- **Calendar tab** — posting schedule with captions, image links, and posted status
+- **Implementation Dates tab** — pre-campaign Instagram baselines
 
-## Success Metrics
+## Key Design Decisions
 
-- Engagement rate (likes, comments, shares, saves)
-- Follower growth during campaign
-- Order volume correlation (DoorDash MP/SF weekly averages vs. baseline)
-- Brand consistency (does AI content match the merchant's identity?)
+1. **File-to-file agent communication** — agents read/write markdown directly instead of using APIs or databases. Simple, debuggable, and version-controllable.
+2. **Pixel-level brand matching** — Agent 1 extracts actual hex codes from merchant Instagram posts via Playwright canvas sampling, so generated images match the merchant's real aesthetic.
+3. **Photo Matcher (Agent 3.5) is mandatory** — scraping real DoorDash storefront photos as references dramatically improves Gemini's output quality vs. text-only prompts.
+4. **Every post ties to an occasion** — no generic filler content. Each post maps to a holiday, food day, local event, or cultural moment relevant to the merchant's cuisine.
+5. **CTAs drive online ordering** — all campaigns push DoorDash orders, not in-house dining.
+
+## How to Run
+
+Agents are invoked via Claude Code skills (`/brand-intel`, `/occasions`, `/content`, `/generate_images`) or by asking Claude directly. Each agent reads its instruction file from `agents/` before executing.
+
+```
+# Example: run the full pipeline for a merchant
+/brand-intel Chelo
+/occasions Chelo
+/content Chelo
+# Agent 3.5 runs automatically before Agent 4
+/generate_images Chelo
+```
+
+Requires:
+- Claude Code with Playwright MCP
+- Google Workspace MCP (for Sheets read/write)
+- Snowflake access (for Agent 2 cuisine tags)
+- Gemini Pro access (for Agent 4 image generation)

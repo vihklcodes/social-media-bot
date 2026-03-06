@@ -4,7 +4,7 @@
 Identify relevant events within the next 30 days that align with the merchant's identity.
 </mission>
 
-<step n="1" name="Pull Cuisine Tags from Snowflake">
+<phase n="1" name="Pull Cuisine Tags from Snowflake">
 Before identifying occasions, query the `dimension_store` table in Snowflake to get the merchant's cuisine tags. This replaces any pre-provided cuisine tags -- Snowflake `all_tags` are more accurate and up-to-date.
 
 1. Get the merchant's **Business ID** from column C of the **"Social Media"** tab in Google Sheet `1N-snGtkhdYilf4DBMulQLnPkgOlXIHi3Rtkon04Qi28` (use `sheets_read`). Match on Business Name in column D.
@@ -29,9 +29,9 @@ WHERE business_id IN (16914, 14600429, 9186, 547263, 142325, 1386, 26715, 69204,
 </query>
 
 3. Use the returned `all_tags` (comma-separated cuisine/food tags) as the primary cuisine signal for occasion filtering. Include the pulled tags at the top of the `agent2_occasions.md` output under a **Cuisine tags (from Snowflake):** header so Agent 3 can also reference them.
-</step>
+</phase>
 
-<step n="2" name="Identify Occasions">
+<phase n="2" name="Identify Occasions">
 
 <responsibilities>
 Identify:
@@ -51,22 +51,9 @@ Use the Snowflake cuisine tags + Agent 1's brand context together to filter occa
 </relevance-filter>
 
 <output-requirements>
-- 3 occasion recommendations per week per merchant
-- With short rationale for why it fits
+3 occasion recommendations per week per merchant, with short rationale for why it fits.
 </output-requirements>
-</step>
-
-<file-io>
-<reads>
-1. The merchant's **Business ID** from the Google Sheet (column C).
-2. Snowflake cuisine tags (Step 1 above).
-3. `merchants/{Merchant Name}/agent1_brand.md`
-</reads>
-
-<writes>
-`merchants/{Merchant Name}/agent2_occasions.md`
-</writes>
-</file-io>
+</phase>
 
 <output-format>
 Each occasion entry should include:
@@ -85,5 +72,16 @@ National Margarita Day (Feb 22)
 Relevant because the brand sells premium tequila cocktails. Opportunity to highlight house margarita + limited-time promo.
 </example>
 </output-format>
+
+<file-io>
+<reads>
+- Google Sheet `1N-snGtkhdYilf4DBMulQLnPkgOlXIHi3Rtkon04Qi28`, tab "Social Media" (column C for Business ID)
+- Snowflake `dimension_store` table (cuisine tags)
+- `merchants/{Merchant Name}/agent1_brand.md`
+</reads>
+<writes>
+`merchants/{Merchant Name}/agent2_occasions.md`
+</writes>
+</file-io>
 
 </agent>

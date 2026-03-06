@@ -827,3 +827,65 @@ Link in bio!
 **Story text:** Which agua fresca are you picking? 🧊 [poll: Horchata / Jamaica / Mango]
 
 **Reel hook:** "Three aguas frescas. Three reasons to come to Jalisco today..."
+
+---
+
+## Occasion 14: National Salsa Month Kickoff
+**Date:** Sunday, Mar 1
+
+### A. Nano Banana Pro Image Generation Prompt
+
+> Generate a 1030 x 1350 px Instagram poster, portrait orientation. This is a promotional flyer for a Mexican restaurant.
+>
+> **Layout:** Food-Framed Center — Multiple bowls of different salsas arranged around the edges of the frame, with the headline text in a natural clearing at center. The abundance and variety of salsas IS the story.
+>
+> **Food photography:** Overhead flat-lay of 5-6 small ceramic bowls of house-made salsas arranged in a circular pattern on a dark walnut wood table. Each salsa is a different color and texture: salsa roja (bright red, smooth), salsa verde (green tomatillo, slightly chunky), pico de gallo (red/white/green diced fresh), salsa tomatillo (darker green, smoother), chipotle salsa (deep orange-red with visible chile flakes), and chile de árbol salsa (bright red-orange, thin). Each bowl should be distinct and identifiable by color. Fresh ingredients scattered between the bowls — whole jalapeños, tomatillos (still in papery husk), cilantro sprigs, lime wedges, white onion slices, fresh tomatoes. A small basket of warm tortilla chips in the top-left corner. The salsas should extend slightly beyond the edges of the frame on at least 2 sides for dynamic energy.
+>
+> **Environment:** Dark walnut wood table surface (#4F4031) visible between and around the bowls. Warm, bright natural indoor lighting — slightly golden tone. The wood grain texture should be visible.
+>
+> **Color palette:** Dark wood (#4F4031), bright red salsa roja, green salsa verde and tomatillo, orange-red chipotle, green jalapeños, purple-white tomatillo husks, white ceramic bowls, golden tortilla chips. Brand red (#EE2D35) in the headline text.
+>
+> **Food styling:** Small traditional ceramic bowls (white or terracotta). Each salsa should look FRESH — just made, not jarred. The pico de gallo should show visible dice cuts. The verde should have visible tomatillo seeds. The roja should have a glossy, smooth texture. Fresh ingredients should look pristine — bright green jalapeños, unblemished tomatillos, fresh-picked cilantro.
+>
+> **Text design:**
+> - **Headline:** "HOUSE-MADE SALSA" in tall, narrow, condensed sans-serif (Bebas Neue style), ALL CAPS, brand red (#EE2D35), centered in the natural clearing between the salsa bowls (center of frame, ~45-60% from top). Font height ~70px, spanning ~40% of canvas width. The text sits in the gap between bowls where dark wood is visible.
+> - **Dateline:** "NATIONAL SALSA MONTH" in clean Satoshi style, ALL CAPS, white (#FFFFFF), ~18px, positioned above the headline.
+> - **Sub-headline:** "Made fresh daily" in Satoshi style, sentence case, white (#FFFFFF), ~24px, below the headline.
+> - **CTA:** "Order now · link in bio!" in Satoshi style, sentence case, white (#FFFFFF), ~26px, bottom 8% of canvas over dark wood.
+> - **Text readability:** Brand red (#EE2D35) text over dark wood table (#4F4031) — sufficient contrast. White accent text over dark wood — strong contrast. No overlay needed.
+>
+> **Eye flow:** FIRST: The colorful array of salsa bowls catches the eye immediately — red, green, orange create a vibrant rainbow → SECOND: "HOUSE-MADE SALSA" in bold red draws attention to the center → THIRD: "Made fresh daily" reinforces quality → FOURTH: "Order now" CTA at bottom.
+>
+> **Exclusions:** No borders, no frames, no stickers, no clip art, no gradient overlays, no drop shadows. No prices.
+
+### B. Instagram Captions
+
+**Option A:**
+March is National Salsa Month. At Jalisco, we make ours from scratch — every single day.
+
+Salsa roja. Salsa verde. Tomatillo. Pico de gallo. All made fresh in our kitchen. No jars. No shortcuts. Just fresh ingredients and family recipes.
+
+Come taste the difference. Order now — link in bio!
+
+.
+.
+.
+#NationalSalsaMonth #Salsa #JaliscoRestaurant #MexicanFood #SacramentoEats #HouseMadeSalsa #FreshSalsa #SalsaVerde #SalsaRoja #PicoDeGallo #AuthenticMexican #SacFood #JaliscoCatering #TomatilloSalsa #SacramentoFoodie #Sacramento #MadisonAve #MexicanSalsa #ScratchMade #SacFoodie
+
+**Option B:**
+House-made salsa. Every single day. From scratch.
+
+Salsa roja — smooth, bright, classic. Salsa verde — tomatillo, tangy. Pico de gallo — diced fresh. Tomatillo — smoky green. Chipotle — deep, smoky heat.
+
+March is National Salsa Month and we're celebrating the only way we know how — by making more of what we've always made.
+
+Order for pickup or delivery — link in bio!
+
+.
+.
+.
+#NationalSalsaMonth #HouseMadeSalsa #JaliscoRestaurant #MexicanFood #SacramentoEats #FreshSalsa #SalsaVerde #SalsaRoja #AuthenticMexican #SacFood #JaliscoCatering #PicoDeGallo #TomatilloSalsa #SacramentoFoodie #Sacramento #ScratchMade #MexicanSalsa #MadisonAve #FreshIngredients #SacFoodie
+
+**Story text:** National Salsa Month! 🌶️ Which salsa are you grabbing first? [poll: Salsa Roja / Salsa Verde / Pico / Chipotle]
+
+**Reel hook:** "We make 6 different salsas from scratch every day at Jalisco. Here's what goes into each one..."
